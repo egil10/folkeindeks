@@ -1,4 +1,5 @@
 import stocks from "../../data/stocks.json";
+import historicals from "../../data/historicals.json";
 
 export type CapTier = "Large" | "Mid" | "Small";
 
@@ -12,6 +13,29 @@ export type Multiples = {
   roe: number | null;
   beta: number | null;
 };
+
+export type Historicals = {
+  asOf: string;
+  bars: number;
+  return1M: number | null;
+  return3M: number | null;
+  return6M: number | null;
+  returnYTD: number | null;
+  return1Y: number | null;
+  return3Y: number | null;
+  return5Y: number | null;
+  high52w: number | null;
+  low52w: number | null;
+  volatility1Y: number | null;
+  maxDrawdown1Y: number | null;
+  avgVolume3M: number | null;
+};
+
+const historicalsMap = historicals as Record<string, Historicals>;
+
+export function getHistoricals(slug: string): Historicals | null {
+  return historicalsMap[slug] ?? null;
+}
 
 export type Stock = {
   slug: string;
