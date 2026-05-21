@@ -1,0 +1,133 @@
+\documentclass[a4paper,10pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% MACROS INSERT HERE %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\MyName}{Egil Furnes}
+\newcommand{\MyPhone}{+47 95726804}
+\newcommand{\MyEmail}{egilfure@gmail.com}
+\newcommand{\MyMonthYear}{May 2026}
+\newcommand{\MyRoleTagline}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% PREAMBLE CONTINUES! %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[norsk]{babel}
+\usepackage[left=0.5in,right=0.5in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{ctex}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titleformat{\subsection}[runin]{\bfseries}{}{0em}{}[:]
+\titlespacing*{\subsection}{0pt}{\baselineskip}{1em}
+\titlespacing*{\section}{1pt}{0.5\baselineskip}{\baselineskip}
+\setlist[itemize]{itemsep=-1mm, topsep=1mm}
+\pagestyle{empty}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% DOCUMENT STARTING! %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent
+\MyRoleTagline
+\hfill 
+\MyMonthYear
+\vspace{-3em}
+\begin{center}
+\LARGE \textbf{\MyName}
+\end{center}
+\vspace{-1em}
+Telephone: \MyPhone \hfill
+Email: \href{mailto:\MyEmail}{\MyEmail}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%     EDUCATION!     %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Education} 
+\noindent \textbf{University of Oslo} \hfill \textbf{Oslo, Norway} \\ BSc, Mathematics \hfill August 2024–present 
+\begin{itemize}   
+    \item Specialising in statistics and stochastic analysis, and seek to pursue a master's in mathematical finance and energy. 
+\end{itemize}
+\noindent \textbf{Norwegian School of Economics} \hfill \textbf{Bergen, Norway} \\
+MSc, Economics and Business Administration | GPA: 4.50/5.00 (A) (top 21\%) \hfill August 2019–June 2024
+\begin{itemize} 
+    \item Master thesis predicting index changes to Oslo Stock Exchange, outperforming the benchmark by \textbf{11.4\%} annually. 
+    \item Coursework in statistical learning, forecasting, and Internship in Asset Management (20/130 students accepted).
+    \item Teaching Assistant (Microeconomics) and Research Assistant (Behavioural Economics). 
+    \item \textbf{Exchange:} Peking University Guanghua School of Management, Top 1 University in China, GPA 83/100 (A-). 
+\end{itemize}
+\noindent \textbf{National Taiwan University} \hfill \textbf{Taipei, Taiwan} \\
+Chinese Language | 360-hour intensive program (HSK 4/5, B2/C1) \hfill February 2022–August 2022
+\begin{itemize} 
+    \item Completed advanced Mandarin coursework at Taiwan’s top-ranked university, achieving GPA 82/100 (A-). 
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  WORK EXPERIENCE!  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Work Experience}
+\noindent \textbf{Kukula Capital} \hfill \textbf{Lusaka, Zambia} \\
+Visiting Associate (100\%) | Asset Management and Private Equity \hfill January 2026–June 2026
+\begin{itemize}
+    \item Independent Zambian firm specializing in private equity, impact investments, and asset management.
+\end{itemize}
+\noindent \textbf{Norwegian Ministry of Finance} \hfill \textbf{Oslo, Norway} \\
+Asset Management Intern (100\%) | Asset Management Department \hfill August 2025–October 2025
+\begin{itemize}
+    \item Directly overseeing the investment mandate for the Government Pension Fund Global, the Norwegian Oil Fund.  
+\end{itemize}
+\noindent \textbf{Norges Bank (Central Bank of Norway)} \hfill \textbf{Oslo, Norway} \\
+Finance Intern (40\%) | NBA Finance \hfill September 2024–August 2025
+\begin{itemize}
+    \item Developed quantitative Power BI dashboards with SQL to improve strategy, budgeting, and financial reporting.
+\end{itemize}
+\noindent \textbf{Wellvector AI} \hfill \textbf{Stavanger, Norway} \\
+Investment Intern (20\%)  \hfill February 2025–March 2025
+\begin{itemize}
+    \item Secured USD 100,000 in funding from Innovation Norway to scale an AI start-up for the petroleum industry.
+\end{itemize}
+\noindent \textbf{Royal Norwegian Embassy in Beijing} \hfill \textbf{Beijing, China} \\
+Diplomatic Intern (100\%) | Economic and Climate/Environment Portfolios \hfill January 2024–August 2024
+\begin{itemize}
+    \item Analysed currency, FDI, and market trends, and coordinated high-level bilateral meetings for Norwegian ministers.
+\end{itemize}
+\noindent \textbf{DNB Asset Management} \hfill \textbf{Oslo, Norway} \\
+Asset Management Intern (100\%) | DNB Global Enhanced Index and DNB Future Waves \hfill June 2023–January 2024
+\begin{itemize}
+    \item Developed a quantitative monitor for dually listed equities, prototyped in Python and implemented in Bloomberg. 
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%     ACTIVITIES     %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Activities}
+\noindent \textbf{Running Club at Norwegian School of Economics | 470/3600 student votes} \hfill \textbf{Bergen, Norway}
+\begin{itemize}
+    \item Head of Markets, secured sponsorships of \textbf{USD 20,000}, and organised a Bergen-Oslo relay  with 300 participants.
+\end{itemize}
+\noindent \textbf{Norwegian Champion | Chinese Language Competition (Chinese Bridge, 汉语桥)} \hfill \textbf{Beijing, China}
+\begin{itemize}
+    \item Secured \textbf{1st place} in the national Chinese language competitions (2017, 2019, 2023), and represented Norway internationally in Kunming (2017) and Guangxi (2023), engaging with 200 national winners from over 100 countries.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  END OF DOCUMENT!  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

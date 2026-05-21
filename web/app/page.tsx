@@ -6,125 +6,226 @@ export default function HomePage() {
   const bySector = statsBySector();
 
   return (
-    <div className="space-y-12">
-      <section className="space-y-4">
-        <p className="text-nordic-300 text-sm uppercase tracking-widest">
+    <div className="space-y-16">
+      <section className="max-w-3xl space-y-5">
+        <p className="text-[11px] uppercase tracking-[0.18em] text-ink-500">
           Interview prep · Folketrygdfondet PhD · Tromsø
         </p>
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-nordic-50">
-          Statens fond i Tromsø, <span className="text-nordic-400">VINXSCEURNI</span>,
-          og en sti fra BANTHE til en PhD.
+        <h1 className="text-4xl md:text-5xl font-semibold tracking-tightest text-ink-900 leading-[1.05]">
+          En arbeidsplass for å forstå{" "}
+          <span className="text-accent-700">Statens fond i Tromsø</span> — fra
+          mandat til hver enkelt aksje.
         </h1>
-        <p className="max-w-3xl text-nordic-200 leading-relaxed">
-          Et lite arbeidsverksted for å lese hele small cap-universet
-          Folketrygdfondet skal forvalte fra Tromsø — selskap for selskap — og
-          for å forstå hvordan masteroppgavens indekseffekt-arbeid kan bygges
-          ut til et doktorgradsprosjekt forankret i den faktiske referanseindeksen.
+        <p className="text-ink-600 text-[15px] leading-relaxed">
+          Hele small-cap-universet Folketrygdfondet skal forvalte fra Tromsø
+          — 361 selskaper, fem mulige forvaltningsstrategier, og en konkret
+          plan for hvordan BANTHE-arbeidet kan utvides til et 3-årig nærings-ph.d.
+          forankret i SFTX-indeksen.
         </p>
-        <div className="flex flex-wrap gap-3 pt-2">
-          <Link href="/stocks" className="rounded-md bg-nordic-500 hover:bg-nordic-400 text-white px-4 py-2 text-sm font-medium">
-            Bla i {allStocks.length} selskaper →
+        <div className="flex flex-wrap gap-2 pt-2">
+          <Link
+            href="/strategier"
+            className="rounded-md bg-ink-900 hover:bg-ink-800 text-white px-4 py-2 text-[13px] font-medium"
+          >
+            De fem strategiene →
           </Link>
-          <Link href="/indeks" className="rounded-md border border-white/15 hover:border-nordic-400 px-4 py-2 text-sm font-medium text-nordic-100">
-            Om VINX-indeksen
+          <Link
+            href="/bakgrunn"
+            className="rounded-md border hairline hover:border-ink-300 px-4 py-2 text-[13px] font-medium text-ink-800"
+          >
+            Min bakgrunn vs. mandatet
           </Link>
-          <Link href="/fund" className="rounded-md border border-white/15 hover:border-nordic-400 px-4 py-2 text-sm font-medium text-nordic-100">
-            Om Tromsø-fondet
-          </Link>
-          <Link href="/thesis" className="rounded-md border border-white/15 hover:border-nordic-400 px-4 py-2 text-sm font-medium text-nordic-100">
+          <Link
+            href="/thesis"
+            className="rounded-md border hairline hover:border-ink-300 px-4 py-2 text-[13px] font-medium text-ink-800"
+          >
             PhD-prosjektutkast
+          </Link>
+          <Link
+            href="/stocks"
+            className="rounded-md border hairline hover:border-ink-300 px-4 py-2 text-[13px] font-medium text-ink-800"
+          >
+            Bla i {allStocks.length} selskaper
           </Link>
         </div>
       </section>
 
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <StatCard label="Konstituenter" value={allStocks.length.toString()} hint="VINX Small Cap EUR NI, mai 2026" />
-        <StatCard label="Land" value={byCountry.length.toString()} hint="Sverige, Danmark, Finland, Island" />
-        <StatCard label="Sektorer" value={bySector.length.toString()} hint="GICS-lignende klassifisering" />
-        <StatCard label="Fondsstørrelse" value="NOK 15 mrd" hint="Tildelt 2025-mandatet" />
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <StatCard
+          label="Konstituenter, snapshot"
+          value={allStocks.length.toString()}
+          hint="VINX Small Cap EUR NI, mai 2026"
+        />
+        <StatCard
+          label="SFTX-universet"
+          value="~344"
+          hint="Etter SPN + SPU-eksklusjoner"
+        />
+        <StatCard
+          label="Startkapital SFT"
+          value="NOK 15 mrd"
+          hint="Skalérbart opp til 30 mrd"
+        />
+        <StatCard
+          label="Aktiv ramme (TE)"
+          value="5 pp"
+          hint="vs 3 pp på SPN — 67 % mer aktiv plass"
+        />
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="glass rounded-xl p-6">
-          <h2 className="text-lg font-semibold text-nordic-100">Fordeling per land</h2>
-          <ul className="mt-4 space-y-2 text-sm">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="card p-6">
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-sm font-semibold text-ink-900">
+              Fordeling per land
+            </h2>
+            <span className="text-[11px] uppercase tracking-wider text-ink-500">
+              VINX Small Cap snapshot
+            </span>
+          </div>
+          <ul className="mt-5 space-y-3 text-[13px]">
             {byCountry.map((row) => (
-              <li key={row.country}>
-                <BarRow label={row.country} value={row.count} max={allStocks.length} />
-              </li>
+              <BarRow
+                key={row.country}
+                label={row.country}
+                value={row.count}
+                max={allStocks.length}
+              />
             ))}
           </ul>
-          <p className="mt-4 text-xs text-nordic-300">
-            Norge er fraværende: VINX-familien dekker Nasdaqs Norden, men
-            Oslo Børs (Euronext) er ikke inkludert. Tromsø-fondets mandat
-            justerer for SPN-selskap og SPU-utelukkelser.
+          <p className="mt-5 text-xs text-ink-500 leading-relaxed">
+            Norge er fraværende — VINX Small Cap dekker Nasdaq Nordic, og Oslo
+            Børs (Euronext) er ikke en del av datasettet. SFTX legger norske
+            small-caps tilbake inn via SPN-eksklusjonen i mandatet.
           </p>
         </div>
 
-        <div className="glass rounded-xl p-6">
-          <h2 className="text-lg font-semibold text-nordic-100">Fordeling per sektor</h2>
-          <ul className="mt-4 space-y-2 text-sm">
+        <div className="card p-6">
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-sm font-semibold text-ink-900">
+              Fordeling per sektor
+            </h2>
+            <span className="text-[11px] uppercase tracking-wider text-ink-500">
+              Kuratert klassifisering
+            </span>
+          </div>
+          <ul className="mt-5 space-y-3 text-[13px]">
             {bySector.map((row) => (
-              <li key={row.sector}>
-                <BarRow label={row.sector} value={row.count} max={allStocks.length} />
-              </li>
+              <BarRow
+                key={row.sector}
+                label={row.sector}
+                value={row.count}
+                max={allStocks.length}
+              />
             ))}
           </ul>
         </div>
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <FeatureCard
-          title="VINX Small Cap, justert"
-          body="VINXSCEURNI er Nasdaqs nordiske small-cap-indeks. Tromsø-mandatet bruker en variant utbyttejustert for FTFs skatteposisjon, og ekskluderer selskap som inngår i SPN samt SPUs utelukkelsesliste."
-          href="/indeks"
-        />
-        <FeatureCard
-          title="15 milliarder fra Tromsø"
-          body="Et nytt statlig fond etablert med regionalpolitisk forankring i Tromsø. Mandat fra Finansdepartementet, forvaltet av en ny enhet under Folketrygdfondet."
-          href="/fund"
-        />
-        <FeatureCard
-          title="BANTHE → PhD"
-          body="Masteroppgavens indekseffekt-modell på OSEBX kan utvides til VINX Small Cap. Nordisk small-cap har høyere illikviditet og tydeligere rebalanseringseffekter — godt PhD-grunnlag."
-          href="/thesis"
-        />
+      <section className="space-y-5">
+        <div className="flex items-baseline justify-between">
+          <h2 className="text-xl font-semibold text-ink-900 tracking-tightest">
+            Tre ting å lese før intervjuet
+          </h2>
+          <Link
+            href="/research"
+            className="text-[13px] text-ink-600 hover:text-ink-900"
+          >
+            Alle research-notater →
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <FeatureCard
+            title="De fem strategiene"
+            body="Finansdepartementet ba FTF drøfte fem forvaltningsstrategier — fra ren indeks til ekstern forvalter-utvelgelse. Hvor passer en PhD i AI/data-analyse inn, og hvor er min komparative fordel?"
+            href="/strategier"
+            cta="Les analysen"
+          />
+          <FeatureCard
+            title="Tromsø-mandatet i klartekst"
+            body="15 mrd. kr åpnet 2. juni 2025, fullt investert ved utgangen av 2025. SFTX-indeksen er VINX Small Cap utbyttejustert for FTFs skatteposisjon, ekskl. SPN + SPU-utelukkelser."
+            href="/fund"
+            cta="Detaljer"
+          />
+          <FeatureCard
+            title="Bro fra BANTHE til SFT"
+            body="11,4 % over OSEBX i masteroppgaven. Long-only-restriksjonen og 5 pp TE-rammen endrer hvordan effekten må fanges — her er et konkret 3-årig prosjektutkast."
+            href="/thesis"
+            cta="Prosjektplan"
+          />
+        </div>
       </section>
     </div>
   );
 }
 
-function StatCard({ label, value, hint }: { label: string; value: string; hint: string }) {
+function StatCard({
+  label,
+  value,
+  hint,
+}: {
+  label: string;
+  value: string;
+  hint: string;
+}) {
   return (
-    <div className="glass rounded-xl p-5">
-      <div className="text-xs uppercase tracking-widest text-nordic-300">{label}</div>
-      <div className="mt-2 text-3xl font-semibold text-nordic-50">{value}</div>
-      <div className="mt-1 text-xs text-nordic-300">{hint}</div>
+    <div className="card p-5">
+      <div className="text-[10px] uppercase tracking-[0.15em] text-ink-500">
+        {label}
+      </div>
+      <div className="mt-3 text-2xl font-semibold text-ink-900 tracking-tightest">
+        {value}
+      </div>
+      <div className="mt-1 text-[11px] text-ink-500 leading-relaxed">{hint}</div>
     </div>
   );
 }
 
-function BarRow({ label, value, max }: { label: string; value: number; max: number }) {
-  const pct = Math.round((value / max) * 100);
+function BarRow({
+  label,
+  value,
+  max,
+}: {
+  label: string;
+  value: number;
+  max: number;
+}) {
+  const pct = (value / max) * 100;
   return (
-    <div>
-      <div className="flex justify-between text-nordic-100">
+    <li>
+      <div className="flex justify-between text-ink-800">
         <span>{label}</span>
-        <span className="tabular-nums text-nordic-300">{value} <span className="text-nordic-400/70">({pct}%)</span></span>
+        <span className="tabular-nums text-ink-500">
+          {value}{" "}
+          <span className="text-ink-400">({pct.toFixed(1)}%)</span>
+        </span>
       </div>
-      <div className="mt-1 h-1.5 rounded-full bg-white/5 overflow-hidden">
-        <div className="h-full bg-nordic-500" style={{ width: `${pct}%` }} />
+      <div className="mt-1.5 h-1 rounded-full bg-ink-100 overflow-hidden">
+        <div
+          className="h-full bg-accent-600"
+          style={{ width: `${pct.toFixed(2)}%` }}
+        />
       </div>
-    </div>
+    </li>
   );
 }
 
-function FeatureCard({ title, body, href }: { title: string; body: string; href: string }) {
+function FeatureCard({
+  title,
+  body,
+  href,
+  cta,
+}: {
+  title: string;
+  body: string;
+  href: string;
+  cta: string;
+}) {
   return (
-    <Link href={href} className="glass rounded-xl p-6 card-hover block">
-      <h3 className="text-lg font-semibold text-nordic-100">{title}</h3>
-      <p className="mt-2 text-sm text-nordic-200">{body}</p>
-      <p className="mt-4 text-xs text-nordic-400">Les mer →</p>
+    <Link href={href} className="card card-hover p-6 block h-full">
+      <h3 className="text-sm font-semibold text-ink-900">{title}</h3>
+      <p className="mt-3 text-[13px] text-ink-600 leading-relaxed">{body}</p>
+      <p className="mt-5 text-[12px] text-accent-700">{cta} →</p>
     </Link>
   );
 }

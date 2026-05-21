@@ -3,7 +3,8 @@ import { allStocks, statsByCountry, statsBySector } from "@/lib/stocks";
 
 export const metadata = {
   title: "VINX Small Cap EUR NI — Folkeindeks",
-  description: "VINX Small Cap EUR NI (VINXSCEURNI) — Nasdaq Nordic small-cap referanseindeks brukt som utgangspunkt for Statens fond i Tromsø.",
+  description:
+    "VINX Small Cap EUR NI (VINXSCEURNI) — Nasdaq Nordic small-cap referanseindeks som danner utgangspunktet for SFTX, Tromsø-fondets justerte referanse.",
 };
 
 export default function IndexPage() {
@@ -11,115 +12,185 @@ export default function IndexPage() {
   const bySector = statsBySector();
 
   return (
-    <article className="space-y-10 prose-invert">
-      <header className="space-y-3">
-        <p className="text-xs uppercase tracking-widest text-nordic-400">Indeks · Nasdaq Nordic</p>
-        <h1 className="text-3xl font-semibold text-nordic-50">VINX Small Cap EUR NI (VINXSCEURNI)</h1>
-        <p className="text-nordic-200 max-w-3xl">
-          Den nordiske small-cap-indeksen som danner ryggraden i Tromsø-mandatet.
-          Konstruert av Nasdaq Nordic, vektet på free-float-markedsverdi,
-          rekonstituert halvårlig (juni og desember).
+    <article className="space-y-14 prose-soft">
+      <header className="space-y-3 max-w-3xl">
+        <p className="text-[11px] uppercase tracking-[0.18em] text-ink-500">
+          Indeks · Nasdaq Nordic
+        </p>
+        <h1 className="text-3xl md:text-4xl font-semibold text-ink-900 tracking-tightest">
+          VINX Small Cap EUR NI <span className="text-ink-400">(VINXSCEURNI)</span>
+        </h1>
+        <p className="text-ink-600 text-[15px] leading-relaxed">
+          Den nordiske small-cap-indeksen som ligger til grunn for SFTX —
+          Tromsø-fondets referanseindeks. Konstruert av Nasdaq Nordic, vektet
+          på free-float-markedsverdi, rekonstituert halvårlig.
         </p>
       </header>
 
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <Card title="Konstituenter (snapshot)">{allStocks.length}</Card>
+      <section className="grid grid-cols-2 md:grid-cols-3 gap-3">
+        <Card title="Konstituenter, snapshot">{allStocks.length}</Card>
         <Card title="Vekting">Free-float justert mcap</Card>
         <Card title="Rebalansering">Halvårlig (juni / desember)</Card>
-        <Card title="Currency / return">EUR · Net Return (NI)</Card>
+        <Card title="Valuta / return">EUR · Net Return (NI)</Card>
         <Card title="Universfilter">Bunn ~22,5 % av mcap-rangering</Card>
         <Card title="Likviditetsbuffer">Krav om handelsvolum</Card>
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold text-nordic-100">Hva betyr suffiksene?</h2>
-        <ul className="text-sm text-nordic-200 space-y-2 list-disc pl-5">
-          <li><strong>VINX</strong> — Nasdaq Nordic + Oslo Børs felles indeksfamilie (sammenslått 2006). I praksis viser VINX Small Cap-instrumentene per i dag null NOK-papirer fordi Oslo Børs ble overtatt av Euronext i 2019 og koblet av som datakilde for de aktive small cap-segmentene.</li>
-          <li><strong>SC</strong> — Small Cap. Det laveste mcap-segmentet.</li>
-          <li><strong>EUR</strong> — Indeksen kalkuleres i euro. Det finnes også DKK/SEK/ISK/NOK-varianter med samme konstituenter, kun valutaomregning skiller seg.</li>
-          <li><strong>NI</strong> — Net Return Index. Utbytter reinvesteres etter kildeskatt. PI (price index) og GI (gross dividends reinvested) finnes parallelt.</li>
+      <section className="space-y-3 max-w-prose">
+        <h2 className="text-xl font-semibold text-ink-900 tracking-tightest">
+          Hva betyr suffiksene?
+        </h2>
+        <ul className="text-[14px] text-ink-600 space-y-2 list-disc pl-5 leading-relaxed">
+          <li>
+            <strong className="text-ink-900">VINX</strong> — Nasdaq Nordics
+            felles indeksfamilie. Inkluderte tidligere Oslo Børs, men Euronexts
+            overtagelse i 2019 koblet av norske data fra de aktive
+            small-cap-segmentene.
+          </li>
+          <li>
+            <strong className="text-ink-900">SC</strong> — Small Cap. Det
+            laveste mcap-segmentet i Nasdaq Nordics indeksstruktur.
+          </li>
+          <li>
+            <strong className="text-ink-900">EUR</strong> — Indeksen rapporteres
+            i euro. DKK/SEK/ISK-varianter eksisterer parallelt med identiske
+            konstituenter; bare valutaomregningen skiller seg.
+          </li>
+          <li>
+            <strong className="text-ink-900">NI</strong> — Net Return Index.
+            Utbytter reinvesteres etter kildeskatt. PI (price) og GI (gross
+            dividends) finnes parallelt.
+          </li>
         </ul>
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="glass rounded-xl p-6">
-          <h3 className="text-lg font-semibold text-nordic-100">Land i universet</h3>
-          <ul className="mt-3 space-y-2 text-sm">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="card p-6">
+          <h3 className="text-sm font-semibold text-ink-900">Land i universet</h3>
+          <ul className="mt-4 space-y-2 text-[13px]">
             {byCountry.map((row) => (
-              <li key={row.country} className="flex justify-between text-nordic-200">
+              <li
+                key={row.country}
+                className="flex justify-between text-ink-700"
+              >
                 <span>{row.country}</span>
-                <span className="tabular-nums text-nordic-100">{row.count}</span>
+                <span className="tabular-nums text-ink-900">{row.count}</span>
               </li>
             ))}
           </ul>
-          <p className="mt-3 text-xs text-nordic-300">
-            Norge er fraværende i nåværende sammensetning av VINXSCEURNI.
-            Tromsø-mandatets justering legger Oslo Børs-univers <em>tilbake inn</em>
-            indirekte via «utbyttejustert for FTFs skatteposisjon» og SPN-eksklusjon.
+          <p className="mt-4 text-[12px] text-ink-500 leading-relaxed">
+            Norge er fraværende i nåværende sammensetning. Tromsø-mandatet
+            legger Oslo Børs-selskaper tilbake indirekte via SPN-eksklusjonen.
           </p>
         </div>
 
-        <div className="glass rounded-xl p-6">
-          <h3 className="text-lg font-semibold text-nordic-100">Sektorfordeling</h3>
-          <ul className="mt-3 space-y-2 text-sm">
+        <div className="card p-6">
+          <h3 className="text-sm font-semibold text-ink-900">Sektorfordeling</h3>
+          <ul className="mt-4 space-y-2 text-[13px]">
             {bySector.map((row) => (
-              <li key={row.sector} className="flex justify-between text-nordic-200">
+              <li
+                key={row.sector}
+                className="flex justify-between text-ink-700"
+              >
                 <span>{row.sector}</span>
-                <span className="tabular-nums text-nordic-100">{row.count}</span>
+                <span className="tabular-nums text-ink-900">{row.count}</span>
               </li>
             ))}
           </ul>
         </div>
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold text-nordic-100">Justeringen Tromsø-fondet gjør</h2>
-        <p className="text-sm text-nordic-200">
-          Mandatet for Statens fond i Tromsø (§ 2-1) refererer ikke direkte til
-          VINXSCEURNI, men til en avledet indeks:
+      <section className="space-y-4 max-w-prose">
+        <h2 className="text-xl font-semibold text-ink-900 tracking-tightest">
+          Justeringen Tromsø-fondet gjør
+        </h2>
+        <p className="text-[14px] text-ink-600 leading-relaxed">
+          Mandatet for Statens fond i Tromsø (FOR-2024-08-12-2096) bruker en
+          avledet indeks, ikke off-the-shelf VINXSCEURNI:
         </p>
-        <blockquote className="border-l-2 border-nordic-500 pl-4 italic text-nordic-100">
+        <blockquote className="text-[14px] text-ink-900 leading-relaxed">
           «VINX Small Cap utbyttejustert for Folketrygdfondets skatteposisjon,
           eksklusive selskaper som inngår i Statens pensjonsfond Norge sin
           referanseindeks, og selskaper utelukket av Statens pensjonsfond utland.»
         </blockquote>
-        <p className="text-sm text-nordic-200">
-          Folketrygdfondet refererer internt til indeksen som <strong>SFTX</strong>:
-          344 selskaper, ca. 1 506 mrd. kr i free-float-justert markedsverdi
-          (kilde: FTF Q1 2026), med en geografisk vekt på rundt 50 % Sverige,
-          22 % Danmark, 13 % Finland, 9 % Norge og 6 % Island. Sektorvekter:
-          industri ~28 %, helse ~25 %, finans ~21 %.
+        <p className="text-[14px] text-ink-600 leading-relaxed">
+          Folketrygdfondet refererer internt til indeksen som{" "}
+          <strong className="text-ink-900">SFTX</strong>: ca. 344 selskaper og{" "}
+          <span className="tabular-nums">~NOK 1 500 mrd</span> i free-float-justert
+          markedsverdi. Geografisk fordeling: Sverige 50 % · Danmark 22 % ·
+          Finland 13 % · Norge 9 % · Island 6 %. Sektorvekter: Industri 28 % ·
+          Helse 25 % · Finans 21 %.
         </p>
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold text-nordic-100">Hva forsvinner i justeringen?</h2>
-        <ul className="text-sm text-nordic-200 space-y-2 list-disc pl-5">
-          <li><strong>SPN-selskaper</strong> — store norske selskaper Folketrygdfondet allerede eier via SPN (Statens pensjonsfond Norge). Disse trekkes ut for å unngå dobbeltdekning.</li>
-          <li><strong>SPU-utelukkelser</strong> — selskaper utelukket av Norges Banks etiske råd / SPU sin observasjonsliste (tobakk, kontroversielle våpen, alvorlige miljøforhold m.fl.).</li>
-          <li><strong>Skatteposisjon</strong> — utbyttene justeres for at FTF har en annen kildeskattposisjon enn EUR-NI-instrumentet forutsetter.</li>
+      <section className="space-y-3 max-w-prose">
+        <h2 className="text-xl font-semibold text-ink-900 tracking-tightest">
+          Hva forsvinner i justeringen?
+        </h2>
+        <ul className="text-[14px] text-ink-600 space-y-2 list-disc pl-5 leading-relaxed">
+          <li>
+            <strong className="text-ink-900">SPN-selskaper</strong> — store
+            norske/nordiske selskaper Folketrygdfondet allerede eier via SPN.
+            Tas ut for å unngå dobbeltdekning av eierskap.
+          </li>
+          <li>
+            <strong className="text-ink-900">SPU-utelukkelser</strong> — selskaper
+            utelukket av Norges Banks etiske råd og SPUs observasjonsliste
+            (tobakk, kontroversielle våpen, alvorlige miljøforhold, m.fl.).
+          </li>
+          <li>
+            <strong className="text-ink-900">Skatteposisjon</strong> — utbyttene
+            justeres for FTFs egen kildeskattposisjon, som er forskjellig fra
+            EUR NI-instrumentets antakelse.
+          </li>
         </ul>
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold text-nordic-100">Aktiv ramme</h2>
-        <p className="text-sm text-nordic-200">
-          Mandatet tillater en forventet relativ volatilitet (tracking error)
-          på inntil <strong>5 prosentpoeng</strong>, maks 5 % i ett enkelt selskap,
-          og forbyr shortsalg. Det er omtrent 2,5× rammen FTF har på SPN —
-          plass for en aktiv ML-drevet strategi.
+      <section className="space-y-3 max-w-prose">
+        <h2 className="text-xl font-semibold text-ink-900 tracking-tightest">
+          Aktiv ramme
+        </h2>
+        <p className="text-[14px] text-ink-600 leading-relaxed">
+          Mandatet tillater en forventet relativ volatilitet på inntil{" "}
+          <strong className="text-ink-900">5 prosentpoeng</strong>, maks 5 % i
+          ett enkelt selskap, og forbyr shortsalg. Det er omtrent 67 % mer
+          aktiv plass enn på SPN — der grensen er 3 pp.
         </p>
-        <p className="text-sm text-nordic-200">
-          Se også <Link href="/thesis" className="text-nordic-300 hover:text-white">PhD-prosjektutkastet</Link> for hvordan denne rammen utnyttes.
+        <p className="text-[14px] text-ink-600 leading-relaxed">
+          Innenfor denne rammen kan flere strategier kombineres — se{" "}
+          <Link
+            href="/strategier"
+            className="text-accent-700 hover:text-accent-900 underline underline-offset-4"
+          >
+            de fem mulige forvaltningsstrategiene
+          </Link>{" "}
+          som FTF og Finansdepartementet diskuterer i mandatutformingen.
         </p>
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-xl font-semibold text-nordic-100">Kilder</h2>
-        <ul className="text-sm text-nordic-200 space-y-1 list-disc pl-5">
-          <li><a href="https://www.nasdaq.com/european-market-activity/indexes/vinxsceurni?id=IX9168" target="_blank" rel="noreferrer" className="text-nordic-300 hover:text-white underline">Nasdaq — VINXSCEURNI Summary</a></li>
-          <li>Methodology_VINX.pdf (lagret i <code>pdfs/</code>)</li>
-          <li>Mandat for forvaltningen av Statens fond i Tromsø — Lovdata</li>
+      <section className="space-y-3 max-w-prose">
+        <h2 className="text-xl font-semibold text-ink-900 tracking-tightest">
+          Kilder
+        </h2>
+        <ul className="text-[14px] text-ink-600 space-y-1.5 list-disc pl-5">
+          <li>
+            <a
+              href="https://www.nasdaq.com/european-market-activity/indexes/vinxsceurni?id=IX9168"
+              target="_blank"
+              rel="noreferrer"
+              className="text-accent-700 hover:text-accent-900 underline underline-offset-4"
+            >
+              Nasdaq — VINXSCEURNI Summary
+            </a>
+          </li>
+          <li>
+            <code className="text-ink-700">pdfs/Methodology_VINX.pdf</code>
+          </li>
+          <li>
+            <code className="text-ink-700">
+              pdfs/Mandat for forvaltningen av Statens fond i Tromsø — Lovdata.pdf
+            </code>
+          </li>
         </ul>
       </section>
     </article>
@@ -128,9 +199,9 @@ export default function IndexPage() {
 
 function Card({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="glass rounded-xl p-5">
-      <div className="text-[10px] uppercase tracking-widest text-nordic-400">{title}</div>
-      <div className="mt-2 text-lg text-nordic-50">{children}</div>
+    <div className="card p-5">
+      <div className="text-[10px] uppercase tracking-[0.15em] text-ink-500">{title}</div>
+      <div className="mt-2 text-base text-ink-900">{children}</div>
     </div>
   );
 }
