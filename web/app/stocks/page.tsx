@@ -139,8 +139,21 @@ export default function StocksPage() {
                     <p className="mt-3 text-[12px] text-ink-600 leading-relaxed line-clamp-3">
                       {s.description}
                     </p>
-                    <div className="mt-3 inline-flex items-center text-[10px] uppercase tracking-[0.15em] text-ink-500">
-                      {s.sector}
+                    <div className="mt-3 flex items-center flex-wrap gap-2 text-[10px] uppercase tracking-[0.15em] text-ink-500">
+                      <span>{s.sector}</span>
+                      {s.tier ? (
+                        <span
+                          className={`px-1.5 py-0.5 rounded-full border ${
+                            s.tier === "Large"
+                              ? "bg-emerald-50 text-emerald-800 border-emerald-200"
+                              : s.tier === "Mid"
+                              ? "bg-amber-50 text-amber-800 border-amber-200"
+                              : "bg-sky-50 text-sky-800 border-sky-200"
+                          }`}
+                        >
+                          {s.tier === "Large" ? "Large" : s.tier === "Mid" ? "Mid" : "Small"} cap
+                        </span>
+                      ) : null}
                     </div>
                   </Link>
                 </li>

@@ -1,5 +1,18 @@
 import stocks from "../../data/stocks.json";
 
+export type CapTier = "Large" | "Mid" | "Small";
+
+export type Multiples = {
+  marketCapMNOK: number | null;
+  peRatio: number | null;
+  evEbitda: number | null;
+  pbRatio: number | null;
+  dividendYield: number | null;
+  netDebtEbitda: number | null;
+  roe: number | null;
+  beta: number | null;
+};
+
 export type Stock = {
   slug: string;
   name: string;
@@ -17,6 +30,9 @@ export type Stock = {
   updated: string;
   sector: string;
   description: string;
+  long: string | null;
+  tier: CapTier | null;
+  multiples: Multiples;
 };
 
 export const allStocks = stocks as Stock[];

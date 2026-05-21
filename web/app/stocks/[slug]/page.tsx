@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allStocks, getStock } from "@/lib/stocks";
+import { allStocks, getStock, type Multiples } from "@/lib/stocks";
 import PriceChart from "@/components/PriceChart";
 
 export function generateStaticParams() {
@@ -51,7 +51,7 @@ export default async function StockPage({ params }: { params: Promise<{ slug: st
         <h1 className="text-3xl md:text-4xl font-semibold text-ink-900 tracking-tightest">
           {s.name}
         </h1>
-        <div className="flex items-baseline gap-3">
+        <div className="flex flex-wrap items-baseline gap-3">
           <span className="text-2xl font-semibold text-ink-900 tabular-nums">
             {s.last !== null ? s.last.toLocaleString("nb-NO") : "—"}
             <span className="ml-1 text-sm font-normal text-ink-500">{s.ccy}</span>
@@ -60,6 +60,7 @@ export default async function StockPage({ params }: { params: Promise<{ slug: st
             {s.change !== null ? `${sign}${s.change}` : "—"}
             {pct !== null ? ` (${sign}${pct.toFixed(2)}%)` : ""}
           </span>
+          {s.tier ? <CapTierBadge tier={s.tier} /> : null}
         </div>
         <p className="text-ink-700 text-[14px] max-w-prose leading-relaxed">
           {s.description}
@@ -67,6 +68,17 @@ export default async function StockPage({ params }: { params: Promise<{ slug: st
       </header>
 
       <PriceChart slug={s.slug} />
+
+      {s.long ? (
+        <section className="card p-6 max-w-prose">
+          <h2 className="text-[11px] uppercase tracking-[0.18em] text-ink-500">
+            Om selskapet
+          </h2>
+          <p className="mt-3 text-[14px] text-ink-800 leading-relaxed">
+            {s.long}
+          </p>
+        </section>
+      ) : null}
 
       <section className="grid grid-cols-2 md:grid-cols-4 gap-2">
         <Datum label="Bid" value={fmt(s.bid)} />
@@ -78,6 +90,8 @@ export default async function StockPage({ params }: { params: Promise<{ slug: st
         <Datum label="Sektor" value={s.sector} />
         <Datum label="Marked" value={s.exchange} />
       </section>
+
+      <MultiplesPanel m={s.multiples} ccy={s.ccy} />
 
       <section className="card p-6">
         <h2 className="text-sm font-semibold text-ink-900">Mer informasjon</h2>
@@ -121,5 +135,95 @@ function ExternalLink({ label, href }: { label: string; href: string }) {
         {label} ↗
       </a>
     </li>
+  );
+}
+
+function CapTierBadge({ tier }: { tier: "Large" | "Mid" | "Small" }) {
+  const styles = {
+    Large: "bg-emerald-50 text-emerald-800 border-emerald-200",
+    Mid: "bg-amber-50 text-amber-800 border-amber-200",
+    Small: "bg-sky-50 text-sky-800 border-sky-200",
+  } as const;
+  const label = { Large: "Large cap", Mid: "Mid cap", Small: "Small cap" } as const;
+  return (
+    <span
+      className={`inline-flex items-center text-[10px] uppercase tracking-[0.15em] px-2 py-0.5 rounded-full border ${styles[tier]}`}
+    >
+      {label[tier]}
+    </span>
+  );
+}
+
+function MultiplesPanel({ m, ccy }: { m: Multiples; ccy: string }) {
+  const cells: Array<{ label: string; value: string; hint?: string }> = [
+    {
+      label: "Markedsverdi",
+      value: m.marketCapMNOK !== null ? `${m.marketCapMNOK.toLocaleString("nb-NO")} MNOK` : "—",
+    },
+    {
+      label: "P/E",
+      value: m.peRatio !== null ? m.peRatio.toFixed(1) + "×" : "—",
+      hint: "TTM",
+    },
+    {
+      label: "EV/EBITDA",
+      value: m.evEbitda !== null ? m.evEbitda.toFixed(1) + "×" : "—",
+      hint: "TTM",
+    },
+    {
+      label: "P/B",
+      value: m.pbRatio !== null ? m.pbRatio.toFixed(2) + "×" : "—",
+    },
+    {
+      label: "Direkteavkastning",
+      value: m.dividendYield !== null ? m.dividendYield.toFixed(2) + " %" : "—",
+    },
+    {
+      label: "Netto gjeld / EBITDA",
+      value: m.netDebtEbitda !== null ? m.netDebtEbitda.toFixed(1) + "×" : "—",
+    },
+    {
+      label: "ROE",
+      value: m.roe !== null ? m.roe.toFixed(1) + " %" : "—",
+    },
+    {
+      label: "Beta (3 år)",
+      value: m.beta !== null ? m.beta.toFixed(2) : "—",
+    },
+  ];
+
+  const hasAny = cells.some((c) => c.value !== "—");
+
+  return (
+    <section className="card p-6">
+      <div className="flex items-baseline justify-between gap-3">
+        <h2 className="text-[11px] uppercase tracking-[0.18em] text-ink-500">
+          Nøkkeltall og multipler
+        </h2>
+        <span className="text-[10px] text-ink-400">Valuta: {ccy}</span>
+      </div>
+      <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-2">
+        {cells.map((c) => (
+          <div key={c.label} className="rounded-md border hairline p-3 bg-ink-50">
+            <div className="text-[10px] uppercase tracking-[0.15em] text-ink-500">
+              {c.label}
+              {c.hint ? (
+                <span className="ml-1 normal-case tracking-normal text-ink-400">
+                  · {c.hint}
+                </span>
+              ) : null}
+            </div>
+            <div className="mt-1 text-[14px] text-ink-900 tabular-nums">
+              {c.value}
+            </div>
+          </div>
+        ))}
+      </div>
+      <p className="mt-4 text-[11px] text-ink-500 leading-relaxed">
+        {hasAny
+          ? "Multipler er indikative — verifiser mot oppdaterte kvartalsrapporter før beslutninger."
+          : "Multipler er ikke koblet til live-data ennå. Skjemaet er på plass; en feeder mot Yahoo/Borsdata/IR-PDF kan legges inn senere uten endringer i frontend."}
+      </p>
+    </section>
   );
 }
