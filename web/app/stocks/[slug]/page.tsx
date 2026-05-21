@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allStocks, getStock } from "@/lib/stocks";
+import PriceChart from "@/components/PriceChart";
 
 export function generateStaticParams() {
   return allStocks.map((s) => ({ slug: s.slug }));
@@ -34,19 +35,19 @@ export default async function StockPage({ params }: { params: Promise<{ slug: st
 
   return (
     <div className="space-y-10">
-      <div>
+      <div className="flex items-center justify-between">
         <Link
           href="/stocks"
-          className="text-[13px] text-ink-500 hover:text-ink-900"
+          className="text-[12px] text-ink-500 hover:text-ink-900"
         >
           ← Tilbake til oversikten
         </Link>
-      </div>
-
-      <header className="space-y-4">
-        <div className="text-[11px] uppercase tracking-[0.18em] text-ink-500">
+        <div className="text-[11px] uppercase tracking-[0.15em] text-ink-500">
           {s.flag} {s.country} · {s.exchange} · {s.sector}
         </div>
+      </div>
+
+      <header className="space-y-3">
         <h1 className="text-3xl md:text-4xl font-semibold text-ink-900 tracking-tightest">
           {s.name}
         </h1>
@@ -60,10 +61,12 @@ export default async function StockPage({ params }: { params: Promise<{ slug: st
             {pct !== null ? ` (${sign}${pct.toFixed(2)}%)` : ""}
           </span>
         </div>
-        <p className="text-ink-700 text-[15px] max-w-prose leading-relaxed">
+        <p className="text-ink-700 text-[14px] max-w-prose leading-relaxed">
           {s.description}
         </p>
       </header>
+
+      <PriceChart slug={s.slug} />
 
       <section className="grid grid-cols-2 md:grid-cols-4 gap-2">
         <Datum label="Bid" value={fmt(s.bid)} />

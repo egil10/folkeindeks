@@ -1,0 +1,1450 @@
+[
+  {
+    "slug": "academedia",
+    "status": "cached"
+  },
+  {
+    "slug": "actic-group",
+    "status": "cached"
+  },
+  {
+    "slug": "active-biotech",
+    "status": "cached"
+  },
+  {
+    "slug": "addlife-b",
+    "status": "cached"
+  },
+  {
+    "slug": "addnode-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "afry",
+    "status": "cached"
+  },
+  {
+    "slug": "aktia-pankki",
+    "status": "cached"
+  },
+  {
+    "slug": "al-sydbank",
+    "status": "cached"
+  },
+  {
+    "slug": "alimak-group",
+    "status": "cached"
+  },
+  {
+    "slug": "alk-abello-b",
+    "status": "cached"
+  },
+  {
+    "slug": "alleima",
+    "status": "cached"
+  },
+  {
+    "slug": "alligator-bioscience",
+    "status": "cached"
+  },
+  {
+    "slug": "alligo-b",
+    "status": "cached"
+  },
+  {
+    "slug": "alm-brand",
+    "status": "cached"
+  },
+  {
+    "slug": "alma-media-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "altra-fastigheter",
+    "status": "cached"
+  },
+  {
+    "slug": "alvotech",
+    "status": "cached"
+  },
+  {
+    "slug": "amaroq-ltd",
+    "status": "cached"
+  },
+  {
+    "slug": "ambea",
+    "status": "cached"
+  },
+  {
+    "slug": "ambu",
+    "status": "cached"
+  },
+  {
+    "slug": "anora-group-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "apotea",
+    "status": "cached"
+  },
+  {
+    "slug": "aq-group",
+    "status": "cached"
+  },
+  {
+    "slug": "arctic-paper",
+    "status": "cached"
+  },
+  {
+    "slug": "arion-banki",
+    "status": "cached"
+  },
+  {
+    "slug": "arjo-b",
+    "status": "cached"
+  },
+  {
+    "slug": "ascelia-pharma",
+    "status": "cached"
+  },
+  {
+    "slug": "asker-healthcare-group",
+    "status": "cached"
+  },
+  {
+    "slug": "asmodee-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "aspo-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "atrium-ljungberg-b",
+    "status": "cached"
+  },
+  {
+    "slug": "attendo",
+    "status": "cached"
+  },
+  {
+    "slug": "autoliv-sdb",
+    "status": "cached"
+  },
+  {
+    "slug": "avanza-bank-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "avarda-bank",
+    "status": "cached"
+  },
+  {
+    "slug": "axfood",
+    "status": "cached"
+  },
+  {
+    "slug": "bang-olufsen",
+    "status": "cached"
+  },
+  {
+    "slug": "bavarian-nordic",
+    "status": "cached"
+  },
+  {
+    "slug": "beijer-alma-b",
+    "status": "cached"
+  },
+  {
+    "slug": "bera",
+    "status": "cached"
+  },
+  {
+    "slug": "bergman-beving-b",
+    "status": "cached"
+  },
+  {
+    "slug": "berner-industrier-b",
+    "status": "cached"
+  },
+  {
+    "slug": "betsson-b",
+    "status": "cached"
+  },
+  {
+    "slug": "better-collective",
+    "status": "cached"
+  },
+  {
+    "slug": "bhg-group",
+    "status": "cached"
+  },
+  {
+    "slug": "bico-group",
+    "status": "cached"
+  },
+  {
+    "slug": "bilia-a",
+    "status": "cached"
+  },
+  {
+    "slug": "billerud",
+    "status": "cached"
+  },
+  {
+    "slug": "bioarctic-b",
+    "status": "cached"
+  },
+  {
+    "slug": "biogaia-b",
+    "status": "cached"
+  },
+  {
+    "slug": "bioinvent-international",
+    "status": "cached"
+  },
+  {
+    "slug": "bittium-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "bonava-b",
+    "status": "cached"
+  },
+  {
+    "slug": "bonesupport-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "bravida-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "brdr-a-o-johansen-b",
+    "status": "cached"
+  },
+  {
+    "slug": "brim",
+    "status": "cached"
+  },
+  {
+    "slug": "bts-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "bufab",
+    "status": "cached"
+  },
+  {
+    "slug": "bulten",
+    "status": "cached"
+  },
+  {
+    "slug": "bure-equity",
+    "status": "cached"
+  },
+  {
+    "slug": "byggmax-group",
+    "status": "cached"
+  },
+  {
+    "slug": "c-rad-b",
+    "status": "cached"
+  },
+  {
+    "slug": "camurus",
+    "status": "cached"
+  },
+  {
+    "slug": "boozt",
+    "ticker": "BOOZT.ST",
+    "status": "ok",
+    "bars": 1265
+  },
+  {
+    "slug": "cantargia",
+    "status": "cached"
+  },
+  {
+    "slug": "capman-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "carasent",
+    "status": "cached"
+  },
+  {
+    "slug": "catella-b",
+    "status": "cached"
+  },
+  {
+    "slug": "catena",
+    "status": "cached"
+  },
+  {
+    "slug": "cbrain",
+    "status": "cached"
+  },
+  {
+    "slug": "cellavision",
+    "status": "cached"
+  },
+  {
+    "slug": "chemometec",
+    "status": "cached"
+  },
+  {
+    "slug": "cibus-real-estate",
+    "status": "cached"
+  },
+  {
+    "slug": "cinclus-pharma-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "cint-group",
+    "status": "cached"
+  },
+  {
+    "slug": "citycon-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "clas-ohlson-b",
+    "status": "cached"
+  },
+  {
+    "slug": "cloetta-b",
+    "status": "cached"
+  },
+  {
+    "slug": "coor-service-management-hold",
+    "status": "cached"
+  },
+  {
+    "slug": "corem-property-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "ctek",
+    "status": "cached"
+  },
+  {
+    "slug": "ctt-systems",
+    "status": "cached"
+  },
+  {
+    "slug": "d-s-norden",
+    "status": "cached"
+  },
+  {
+    "slug": "dedicare-b",
+    "status": "cached"
+  },
+  {
+    "slug": "demant",
+    "status": "cached"
+  },
+  {
+    "slug": "dfds",
+    "status": "cached"
+  },
+  {
+    "slug": "dios-fastigheter",
+    "status": "cached"
+  },
+  {
+    "slug": "dometic-group",
+    "status": "cached"
+  },
+  {
+    "slug": "duni",
+    "status": "cached"
+  },
+  {
+    "slug": "dustin-group",
+    "status": "cached"
+  },
+  {
+    "slug": "dynavox-group",
+    "status": "cached"
+  },
+  {
+    "slug": "easor-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "eastnine",
+    "status": "cached"
+  },
+  {
+    "slug": "egetis-therapeutics",
+    "status": "cached"
+  },
+  {
+    "slug": "eik-fasteignafelag",
+    "status": "cached"
+  },
+  {
+    "slug": "eimskipafelag-islands",
+    "status": "cached"
+  },
+  {
+    "slug": "elanders-b",
+    "status": "cached"
+  },
+  {
+    "slug": "electrolux-b",
+    "status": "cached"
+  },
+  {
+    "slug": "electrolux-professional-b",
+    "status": "cached"
+  },
+  {
+    "slug": "elekta-b",
+    "status": "cached"
+  },
+  {
+    "slug": "embla-medical",
+    "status": "cached"
+  },
+  {
+    "slug": "embracer-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "enad-global-7",
+    "status": "cached"
+  },
+  {
+    "slug": "endomines-finland-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "enea",
+    "status": "cached"
+  },
+  {
+    "slug": "enento-group-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "engcon-b",
+    "status": "cached"
+  },
+  {
+    "slug": "enity-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "eolus-b",
+    "status": "cached"
+  },
+  {
+    "slug": "ependion",
+    "status": "cached"
+  },
+  {
+    "slug": "eql-pharma",
+    "status": "cached"
+  },
+  {
+    "slug": "ework-group",
+    "status": "cached"
+  },
+  {
+    "slug": "f-secure-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "fabege",
+    "status": "cached"
+  },
+  {
+    "slug": "fagerhult-group",
+    "status": "cached"
+  },
+  {
+    "slug": "fasadgruppen-group",
+    "status": "cached"
+  },
+  {
+    "slug": "fastighetsbolaget-emilshus-b",
+    "status": "cached"
+  },
+  {
+    "slug": "fastpartner-a",
+    "status": "cached"
+  },
+  {
+    "slug": "fenix-outdoor-international-b",
+    "status": "cached"
+  },
+  {
+    "slug": "ferronordic",
+    "status": "cached"
+  },
+  {
+    "slug": "festi",
+    "status": "cached"
+  },
+  {
+    "slug": "fingerprint-cards-b",
+    "status": "cached"
+  },
+  {
+    "slug": "finnair-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "fiskars-oyj-abp",
+    "status": "cached"
+  },
+  {
+    "slug": "flerie",
+    "status": "cached"
+  },
+  {
+    "slug": "flsmidth-co",
+    "status": "cached"
+  },
+  {
+    "slug": "g5-entertainment",
+    "status": "cached"
+  },
+  {
+    "slug": "gentoo-media",
+    "status": "cached"
+  },
+  {
+    "slug": "gn-store-nord",
+    "status": "cached"
+  },
+  {
+    "slug": "gofore-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "green-landscaping-group",
+    "status": "cached"
+  },
+  {
+    "slug": "grk-infra-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "f-roya-banki",
+    "ticker": "FOROYA.CO",
+    "status": "no_history"
+  },
+  {
+    "slug": "gruvaktiebolaget-viscaria",
+    "status": "cached"
+  },
+  {
+    "slug": "granges",
+    "status": "cached"
+  },
+  {
+    "slug": "gubra",
+    "status": "cached"
+  },
+  {
+    "slug": "h-h-international",
+    "status": "cached"
+  },
+  {
+    "slug": "h-lundbeck-b",
+    "status": "cached"
+  },
+  {
+    "slug": "hacksaw",
+    "status": "cached"
+  },
+  {
+    "slug": "hagar",
+    "status": "cached"
+  },
+  {
+    "slug": "hampi-jan",
+    "status": "cached"
+  },
+  {
+    "slug": "hansa-biopharma",
+    "status": "cached"
+  },
+  {
+    "slug": "hanza",
+    "status": "cached"
+  },
+  {
+    "slug": "harboes-bryggeri-b",
+    "status": "cached"
+  },
+  {
+    "slug": "harvia-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "heba-b",
+    "status": "cached"
+  },
+  {
+    "slug": "heimar",
+    "status": "cached"
+  },
+  {
+    "slug": "hemnet-group",
+    "status": "cached"
+  },
+  {
+    "slug": "hexatronic-group",
+    "status": "cached"
+  },
+  {
+    "slug": "hexpol-b",
+    "status": "cached"
+  },
+  {
+    "slug": "hiab-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "hms-networks",
+    "status": "cached"
+  },
+  {
+    "slug": "hoist-finance",
+    "status": "cached"
+  },
+  {
+    "slug": "hufvudstaden-a",
+    "status": "cached"
+  },
+  {
+    "slug": "huhtamaki-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "humana",
+    "status": "cached"
+  },
+  {
+    "slug": "humble-group",
+    "status": "cached"
+  },
+  {
+    "slug": "huscompagniet",
+    "status": "cached"
+  },
+  {
+    "slug": "husqvarna-b",
+    "status": "cached"
+  },
+  {
+    "slug": "icelandair-group",
+    "status": "cached"
+  },
+  {
+    "slug": "immunovia",
+    "status": "cached"
+  },
+  {
+    "slug": "incap-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "infant-bacterial-therapeuticsb",
+    "status": "cached"
+  },
+  {
+    "slug": "instalco",
+    "status": "cached"
+  },
+  {
+    "slug": "intea-fastigheter-b",
+    "status": "cached"
+  },
+  {
+    "slug": "international-petroleum-corp",
+    "status": "cached"
+  },
+  {
+    "slug": "intrum",
+    "status": "cached"
+  },
+  {
+    "slug": "invisio",
+    "status": "cached"
+  },
+  {
+    "slug": "inwido",
+    "status": "cached"
+  },
+  {
+    "slug": "isofol-medical",
+    "status": "cached"
+  },
+  {
+    "slug": "iss",
+    "status": "cached"
+  },
+  {
+    "slug": "itab-shop-concept",
+    "status": "cached"
+  },
+  {
+    "slug": "jbt-marel-corp",
+    "status": "cached"
+  },
+  {
+    "slug": "jeudan",
+    "status": "cached"
+  },
+  {
+    "slug": "jm",
+    "status": "cached"
+  },
+  {
+    "slug": "john-mattson-fastighetsforet",
+    "status": "cached"
+  },
+  {
+    "slug": "jyske-bank",
+    "status": "cached"
+  },
+  {
+    "slug": "k-fast-holding-b",
+    "status": "cached"
+  },
+  {
+    "slug": "kaldalon",
+    "status": "cached"
+  },
+  {
+    "slug": "kalmar-oyj-b",
+    "status": "cached"
+  },
+  {
+    "slug": "kamux-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "karnell-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "karnov-group",
+    "status": "cached"
+  },
+  {
+    "slug": "kemira-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "kempower-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "kinnevik-b",
+    "status": "cached"
+  },
+  {
+    "slug": "klarabo-sverige-b",
+    "status": "cached"
+  },
+  {
+    "slug": "knowit",
+    "status": "cached"
+  },
+  {
+    "slug": "kvika-banki",
+    "status": "cached"
+  },
+  {
+    "slug": "lagercrantz-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "lassila-tikanoja",
+    "status": "cached"
+  },
+  {
+    "slug": "latour-b",
+    "status": "cached"
+  },
+  {
+    "slug": "lime-technologies",
+    "status": "cached"
+  },
+  {
+    "slug": "lindab-international",
+    "status": "cached"
+  },
+  {
+    "slug": "lindex-group-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "logistea-b",
+    "status": "cached"
+  },
+  {
+    "slug": "loomis",
+    "status": "cached"
+  },
+  {
+    "slug": "lumo-kodit-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "lundbergforetagen-b",
+    "status": "cached"
+  },
+  {
+    "slug": "lundin-gold",
+    "status": "cached"
+  },
+  {
+    "slug": "lundin-mining-corporation",
+    "status": "cached"
+  },
+  {
+    "slug": "luotea-plc",
+    "status": "cached"
+  },
+  {
+    "slug": "maha-capital",
+    "status": "cached"
+  },
+  {
+    "slug": "mandatum",
+    "status": "cached"
+  },
+  {
+    "slug": "marimekko-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "matas",
+    "status": "cached"
+  },
+  {
+    "slug": "medcap",
+    "status": "cached"
+  },
+  {
+    "slug": "medicover-b",
+    "status": "cached"
+  },
+  {
+    "slug": "meko",
+    "status": "cached"
+  },
+  {
+    "slug": "meren-energy",
+    "status": "cached"
+  },
+  {
+    "slug": "metsa-board-oyj-b",
+    "status": "cached"
+  },
+  {
+    "slug": "mildef-group",
+    "status": "cached"
+  },
+  {
+    "slug": "mips",
+    "status": "cached"
+  },
+  {
+    "slug": "moberg-pharma",
+    "status": "cached"
+  },
+  {
+    "slug": "modern-times-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "momentum-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "mt-h-jgaard-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "munters-group",
+    "status": "cached"
+  },
+  {
+    "slug": "musti-group-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "mycronic",
+    "status": "cached"
+  },
+  {
+    "slug": "ncab-group",
+    "status": "cached"
+  },
+  {
+    "slug": "ncc-b",
+    "status": "cached"
+  },
+  {
+    "slug": "nederman-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "nelly-group",
+    "status": "cached"
+  },
+  {
+    "slug": "neobo-fastigheter",
+    "status": "cached"
+  },
+  {
+    "slug": "net-insight-b",
+    "status": "cached"
+  },
+  {
+    "slug": "netcompany-group",
+    "status": "cached"
+  },
+  {
+    "slug": "netel-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "new-wave-b",
+    "status": "cached"
+  },
+  {
+    "slug": "nightingale-health-oyj-b",
+    "status": "cached"
+  },
+  {
+    "slug": "nilorngruppen-b",
+    "status": "cached"
+  },
+  {
+    "slug": "nivika-fastigheter-b",
+    "status": "cached"
+  },
+  {
+    "slug": "nnit",
+    "status": "cached"
+  },
+  {
+    "slug": "noba-bank-group",
+    "status": "cached"
+  },
+  {
+    "slug": "nobia",
+    "status": "cached"
+  },
+  {
+    "slug": "nokian-renkaat-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "nolato-b",
+    "status": "cached"
+  },
+  {
+    "slug": "nordnet",
+    "status": "cached"
+  },
+  {
+    "slug": "norion-bank",
+    "status": "cached"
+  },
+  {
+    "slug": "north-media",
+    "status": "cached"
+  },
+  {
+    "slug": "note",
+    "status": "cached"
+  },
+  {
+    "slug": "nova-klubburinn",
+    "status": "cached"
+  },
+  {
+    "slug": "np3-fastigheter",
+    "status": "cached"
+  },
+  {
+    "slug": "ntg-nordic-transport-group",
+    "status": "cached"
+  },
+  {
+    "slug": "oculis-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "oem-international-b",
+    "status": "cached"
+  },
+  {
+    "slug": "olvi-oyj-a",
+    "status": "cached"
+  },
+  {
+    "slug": "oma-saastopankki-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "oncopeptides",
+    "status": "cached"
+  },
+  {
+    "slug": "optomed-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "oriola-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "orron-energy",
+    "status": "cached"
+  },
+  {
+    "slug": "outokumpu-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "ovzon",
+    "status": "cached"
+  },
+  {
+    "slug": "pandox-b",
+    "status": "cached"
+  },
+  {
+    "slug": "peab-b",
+    "status": "cached"
+  },
+  {
+    "slug": "per-aarsleff-holding-b",
+    "status": "cached"
+  },
+  {
+    "slug": "pierce-group",
+    "status": "cached"
+  },
+  {
+    "slug": "pihlajalinna-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "platzer-fastigheter-holding-b",
+    "status": "cached"
+  },
+  {
+    "slug": "ponsse-oyj-1",
+    "status": "cached"
+  },
+  {
+    "slug": "posti-group",
+    "status": "cached"
+  },
+  {
+    "slug": "powercell-sweden",
+    "status": "cached"
+  },
+  {
+    "slug": "precise-biometrics",
+    "status": "cached"
+  },
+  {
+    "slug": "prevas-b",
+    "status": "cached"
+  },
+  {
+    "slug": "pricer-b",
+    "status": "cached"
+  },
+  {
+    "slug": "prisma-properties",
+    "status": "cached"
+  },
+  {
+    "slug": "proact-it-group",
+    "status": "cached"
+  },
+  {
+    "slug": "puuilo-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "q-linea",
+    "status": "cached"
+  },
+  {
+    "slug": "qt-group-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "raisio-oyj-vaihto-osake",
+    "status": "cached"
+  },
+  {
+    "slug": "ratos-b",
+    "status": "cached"
+  },
+  {
+    "slug": "raysearch-laboratories-b",
+    "status": "cached"
+  },
+  {
+    "slug": "reitir-fasteignafelag",
+    "status": "cached"
+  },
+  {
+    "slug": "rejlers-b",
+    "status": "cached"
+  },
+  {
+    "slug": "relais-group-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "remedy-entertainment-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "revenio-group-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "royal-unibrew",
+    "status": "cached"
+  },
+  {
+    "slug": "rusta",
+    "status": "cached"
+  },
+  {
+    "slug": "rvrc-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "roko-b",
+    "status": "cached"
+  },
+  {
+    "slug": "samhallsbyggnadsbo-i-norden-b",
+    "status": "cached"
+  },
+  {
+    "slug": "saniona",
+    "status": "cached"
+  },
+  {
+    "slug": "sanoma-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "scandi-standard",
+    "status": "cached"
+  },
+  {
+    "slug": "scandic-hotels-group",
+    "status": "cached"
+  },
+  {
+    "slug": "scandinavian-tobacco-group",
+    "status": "cached"
+  },
+  {
+    "slug": "scanfil-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "schouw-co",
+    "status": "cached"
+  },
+  {
+    "slug": "sdiptech-b",
+    "status": "cached"
+  },
+  {
+    "slug": "sectra-b",
+    "status": "cached"
+  },
+  {
+    "slug": "sedana-medical",
+    "status": "cached"
+  },
+  {
+    "slug": "senzime",
+    "status": "cached"
+  },
+  {
+    "slug": "sinch",
+    "status": "cached"
+  },
+  {
+    "slug": "sivers-semiconductors",
+    "status": "cached"
+  },
+  {
+    "slug": "sjf-bank",
+    "status": "cached"
+  },
+  {
+    "slug": "sjova-almennar-tryggingar",
+    "status": "cached"
+  },
+  {
+    "slug": "skagi",
+    "status": "cached"
+  },
+  {
+    "slug": "skel-fjarfestingafelag",
+    "status": "cached"
+  },
+  {
+    "slug": "skistar-b",
+    "status": "cached"
+  },
+  {
+    "slug": "skjern-bank",
+    "status": "cached"
+  },
+  {
+    "slug": "sleep-cycle",
+    "status": "cached"
+  },
+  {
+    "slug": "solar-b",
+    "status": "cached"
+  },
+  {
+    "slug": "solid-forsakringsaktiebolag",
+    "status": "cached"
+  },
+  {
+    "slug": "sp-group",
+    "status": "cached"
+  },
+  {
+    "slug": "ssh-communications-security",
+    "status": "cached"
+  },
+  {
+    "slug": "stendorren-fastigheter-b",
+    "status": "cached"
+  },
+  {
+    "slug": "stenhus-fastigheter-i-norden",
+    "status": "cached"
+  },
+  {
+    "slug": "stillfront-group",
+    "status": "cached"
+  },
+  {
+    "slug": "storskogen-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "studsvik",
+    "status": "cached"
+  },
+  {
+    "slug": "sveafastigheter",
+    "status": "cached"
+  },
+  {
+    "slug": "svedbergs-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "sweco-b",
+    "status": "cached"
+  },
+  {
+    "slug": "swedish-logistic-property-b",
+    "status": "cached"
+  },
+  {
+    "slug": "synact-pharma",
+    "status": "cached"
+  },
+  {
+    "slug": "synsam",
+    "status": "cached"
+  },
+  {
+    "slug": "systemair",
+    "status": "cached"
+  },
+  {
+    "slug": "sildarvinnslan",
+    "status": "cached"
+  },
+  {
+    "slug": "siminn",
+    "status": "cached"
+  },
+  {
+    "slug": "syn",
+    "status": "cached"
+  },
+  {
+    "slug": "taaleri-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "talenom-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "terveystalo-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "thule-group",
+    "status": "cached"
+  },
+  {
+    "slug": "tieto-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "tobii",
+    "status": "cached"
+  },
+  {
+    "slug": "tokmanni-group-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "torm-a",
+    "status": "cached"
+  },
+  {
+    "slug": "transtema-group",
+    "status": "cached"
+  },
+  {
+    "slug": "traton",
+    "status": "cached"
+  },
+  {
+    "slug": "trianon-b",
+    "status": "cached"
+  },
+  {
+    "slug": "trifork-group",
+    "status": "cached"
+  },
+  {
+    "slug": "troax-group",
+    "status": "cached"
+  },
+  {
+    "slug": "truecaller-b",
+    "status": "cached"
+  },
+  {
+    "slug": "uie-plc",
+    "status": "cached"
+  },
+  {
+    "slug": "vaisala-oyj-a",
+    "status": "cached"
+  },
+  {
+    "slug": "vbg-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "verkkokauppa-com-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "vestum",
+    "status": "cached"
+  },
+  {
+    "slug": "viaplay-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "vicore-pharma-holding",
+    "status": "cached"
+  },
+  {
+    "slug": "vimian-group",
+    "status": "cached"
+  },
+  {
+    "slug": "vitec-software-group-b",
+    "status": "cached"
+  },
+  {
+    "slug": "vitrolife",
+    "status": "cached"
+  },
+  {
+    "slug": "vnv-global",
+    "status": "cached"
+  },
+  {
+    "slug": "volati",
+    "status": "cached"
+  },
+  {
+    "slug": "volvo-car-b",
+    "status": "cached"
+  },
+  {
+    "slug": "wallenstam-b",
+    "status": "cached"
+  },
+  {
+    "slug": "wihlborgs-fastigheter",
+    "status": "cached"
+  },
+  {
+    "slug": "xbrane-biopharma",
+    "status": "cached"
+  },
+  {
+    "slug": "xspray-pharma",
+    "status": "cached"
+  },
+  {
+    "slug": "xvivo-perfusion",
+    "status": "cached"
+  },
+  {
+    "slug": "yit-oyj",
+    "status": "cached"
+  },
+  {
+    "slug": "yubico",
+    "status": "cached"
+  },
+  {
+    "slug": "islandsbanki",
+    "status": "cached"
+  },
+  {
+    "slug": "oresund",
+    "status": "cached"
+  },
+  {
+    "slug": "isfelag",
+    "ticker": "ISFI.IC",
+    "status": "no_history"
+  }
+]

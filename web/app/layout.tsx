@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="no">
       <body className="min-h-screen font-sans antialiased text-ink-900">
         <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b hairline">
-          <div className="mx-auto max-w-6xl px-5 h-14 flex items-center gap-6">
+          <div className="mx-auto max-w-7xl px-5 h-14 flex items-center gap-6">
             <Link
               href="/"
               className="font-semibold tracking-tightest text-ink-900 text-[15px]"
@@ -45,9 +45,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </nav>
           </div>
         </header>
-        <main className="mx-auto max-w-6xl px-5 py-12 md:py-16">{children}</main>
+        <main className="mx-auto max-w-7xl px-5 py-12 md:py-16">{children}</main>
         <footer className="border-t hairline mt-16">
-          <div className="mx-auto max-w-6xl px-5 py-10 text-xs text-ink-500 flex flex-wrap gap-x-6 gap-y-2">
+          <div className="mx-auto max-w-7xl px-5 py-10 text-xs text-ink-500 flex flex-wrap gap-x-6 gap-y-2">
             <span>
               Interview-prep workspace for Folketrygdfondets PhD-stilling i Tromsø.
             </span>
