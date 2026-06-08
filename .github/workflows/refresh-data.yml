@@ -1,0 +1,50 @@
+name: Refresh stock data
+
+# Refetch Yahoo Finance prices and recompute historicals, then commit the
+# refreshed data back to the repo. Vercel redeploys automatically on push.
+#
+# Schedule: 23:01 UTC, Mon-Fri. That is ~00:01 in Oslo in winter (CET) and
+# ~01:01 in summer (CEST) — GitHub cron is UTC-only and does not follow DST.
+on:
+  schedule:
+    - cron: "1 23 * * 1-5"
+  workflow_dispatch:
+
+# Allow the job to push the refreshed data files.
+permissions:
+  contents: write
+
+# Don't let an overlapping/queued run race the push.
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Refetch prices
+        run: node scripts/fetch_prices.mjs
+
+      - name: Recompute historicals
+        run: node scripts/compute_historicals.mjs
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Auto-refresh stock data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
