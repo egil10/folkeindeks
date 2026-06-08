@@ -17,29 +17,21 @@ export default function HomePage() {
           mandat til hver enkelt aksje.
         </h1>
         <p className="text-ink-600 text-[15px] leading-relaxed">
-          Hele small-cap-universet Folketrygdfondet skal forvalte fra Tromsø
-          — 361 selskaper, fem mulige forvaltningsstrategier, og en konkret
-          plan for hvordan BANTHE-arbeidet kan utvides til et 3-årig nærings-ph.d.
-          forankret i SFTX-indeksen.
+          {allStocks.length} nordiske small-caps, fem forvaltningsstrategier, og
+          et 3-årig nærings-ph.d.-utkast forankret i SFTX-indeksen.
         </p>
         <div className="flex flex-wrap gap-2 pt-2">
           <Link
-            href="/strategier"
+            href="/dashboard"
             className="rounded-md bg-ink-900 hover:bg-ink-800 text-white px-4 py-2 text-[13px] font-medium"
           >
-            De fem strategiene →
+            Åpne dashboard →
           </Link>
           <Link
-            href="/bakgrunn"
+            href="/strategier"
             className="rounded-md border hairline hover:border-ink-300 px-4 py-2 text-[13px] font-medium text-ink-800"
           >
-            Min bakgrunn vs. mandatet
-          </Link>
-          <Link
-            href="/thesis"
-            className="rounded-md border hairline hover:border-ink-300 px-4 py-2 text-[13px] font-medium text-ink-800"
-          >
-            PhD-prosjektutkast
+            De fem strategiene
           </Link>
           <Link
             href="/stocks"
@@ -94,9 +86,8 @@ export default function HomePage() {
             ))}
           </ul>
           <p className="mt-5 text-xs text-ink-500 leading-relaxed">
-            Norge er fraværende — VINX Small Cap dekker Nasdaq Nordic, og Oslo
-            Børs (Euronext) er ikke en del av datasettet. SFTX legger norske
-            small-caps tilbake inn via SPN-eksklusjonen i mandatet.
+            Norge mangler — VINX dekker Nasdaq Nordic, ikke Oslo Børs. SFTX
+            henter norske small-caps inn igjen via SPN-eksklusjonen.
           </p>
         </div>
 
@@ -137,19 +128,19 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <FeatureCard
             title="De fem strategiene"
-            body="Finansdepartementet ba FTF drøfte fem forvaltningsstrategier — fra ren indeks til ekstern forvalter-utvelgelse. Hvor passer en PhD i AI/data-analyse inn, og hvor er min komparative fordel?"
+            body="Fra ren indeks til ekstern forvalter-utvelgelse — og hvor en PhD i AI/data-analyse passer inn."
             href="/strategier"
             cta="Les analysen"
           />
           <FeatureCard
             title="Tromsø-mandatet i klartekst"
-            body="15 mrd. kr åpnet 2. juni 2025, fullt investert ved utgangen av 2025. SFTX-indeksen er VINX Small Cap utbyttejustert for FTFs skatteposisjon, ekskl. SPN + SPU-utelukkelser."
+            body="15 mrd. kr, åpnet 2. juni 2025. SFTX er VINX Small Cap utbyttejustert, ekskl. SPN + SPU."
             href="/fund"
             cta="Detaljer"
           />
           <FeatureCard
             title="Bro fra BANTHE til SFT"
-            body="11,4 % over OSEBX i masteroppgaven. Long-only-restriksjonen og 5 pp TE-rammen endrer hvordan effekten må fanges — her er et konkret 3-årig prosjektutkast."
+            body="11,4 % over OSEBX i masteroppgaven, oversatt til et long-only 3-årig prosjektutkast."
             href="/thesis"
             cta="Prosjektplan"
           />

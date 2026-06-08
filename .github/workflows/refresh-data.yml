@@ -37,6 +37,9 @@ jobs:
       - name: Recompute historicals
         run: node scripts/compute_historicals.mjs
 
+      - name: Rebuild dashboard data
+        run: node scripts/build_dashboard.mjs
+
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
