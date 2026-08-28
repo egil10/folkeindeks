@@ -3,451 +3,451 @@
     "slug": "active-biotech",
     "ticker": "ACTI.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "actic-group",
     "ticker": "ATIC.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "academedia",
     "ticker": "ACAD.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "addlife-b",
     "ticker": "ALIF-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "afry",
     "ticker": "AFRY.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "addnode-group-b",
-    "ticker": "ANOD-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "aktia-pankki",
     "ticker": "AKTIA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "addnode-group-b",
+    "ticker": "ANOD-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "al-sydbank",
     "ticker": "ALSYDB.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "alimak-group",
     "ticker": "ALIG.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "alk-abello-b",
-    "ticker": "ALK-B.CO",
-    "status": "ok",
-    "bars": 1259
+    "bars": 1265
   },
   {
     "slug": "alleima",
     "ticker": "ALLEI.ST",
     "status": "ok",
-    "bars": 1000
+    "bars": 1001
+  },
+  {
+    "slug": "alk-abello-b",
+    "ticker": "ALK-B.CO",
+    "status": "ok",
+    "bars": 1260
   },
   {
     "slug": "alligator-bioscience",
     "ticker": "ATORX.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "alligo-b",
-    "ticker": "ALLIGO-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "alm-brand",
     "ticker": "ALMB.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "alma-media-oyj",
     "ticker": "ALMA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "alligo-b",
+    "ticker": "ALLIGO-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "altra-fastigheter",
     "ticker": "ALTRA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "alvotech",
     "ticker": "ALVO.IC",
     "status": "ok",
-    "bars": 1036
+    "bars": 1037
   },
   {
     "slug": "amaroq-ltd",
     "ticker": "AMRQ.IC",
     "status": "ok",
-    "bars": 189
+    "bars": 190
   },
   {
     "slug": "ambea",
     "ticker": "AMBEA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "ambu",
     "ticker": "AMBU-B.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "anora-group-oyj",
     "ticker": "ANORA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "apotea",
     "ticker": "APOTEA.ST",
     "status": "ok",
-    "bars": 425
+    "bars": 426
   },
   {
     "slug": "aq-group",
     "ticker": "AQ.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "arion-banki",
-    "ticker": "ARION.IC",
-    "status": "ok",
-    "bars": 1251
+    "bars": 1265
   },
   {
     "slug": "arctic-paper",
     "ticker": "ARP.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
-    "slug": "arjo-b",
-    "ticker": "ARJO-B.ST",
+    "slug": "arion-banki",
+    "ticker": "ARION.IC",
     "status": "ok",
-    "bars": 1264
+    "bars": 1252
   },
   {
     "slug": "ascelia-pharma",
     "ticker": "ACE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "arjo-b",
+    "ticker": "ARJO-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "asker-healthcare-group",
     "ticker": "ASKER.ST",
     "status": "ok",
-    "bars": 352
+    "bars": 353
   },
   {
     "slug": "asmodee-group-b",
     "ticker": "ASMDEE-B.ST",
     "status": "ok",
-    "bars": 386
+    "bars": 387
   },
   {
     "slug": "aspo-oyj",
     "ticker": "ASPO.HE",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "atrium-ljungberg-b",
-    "ticker": "ATRLJ-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "attendo",
     "ticker": "ATT.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "atrium-ljungberg-b",
+    "ticker": "ATRLJ-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "autoliv-sdb",
-    "ticker": "LIVA.F",
+    "ticker": "ALIV-SDB.ST",
     "status": "ok",
-    "bars": 1282
-  },
-  {
-    "slug": "avanza-bank-holding",
-    "ticker": "AZA.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "axfood",
     "ticker": "AXFO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "avanza-bank-holding",
+    "ticker": "AZA.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "avarda-bank",
     "ticker": "AVARDA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bang-olufsen",
     "ticker": "BO.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "bavarian-nordic",
     "ticker": "BAVA.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "bera",
     "ticker": "BERA.IC",
     "status": "ok",
-    "bars": 1045
+    "bars": 1046
   },
   {
     "slug": "beijer-alma-b",
     "ticker": "BEIA-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bergman-beving-b",
     "ticker": "BERG-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "berner-industrier-b",
     "ticker": "BERNER-B.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "better-collective",
-    "ticker": "BETCO.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "betsson-b",
     "ticker": "BETS-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "better-collective",
+    "ticker": "BETCO.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "bhg-group",
     "ticker": "BHG.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bico-group",
     "ticker": "BICO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "billerud",
     "ticker": "BILL.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bilia-a",
     "ticker": "BILI-A.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bioarctic-b",
     "ticker": "BIOA-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bioinvent-international",
     "ticker": "BINV.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "biogaia-b",
-    "ticker": "BIOG-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bittium-oyj",
     "ticker": "BITTI.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
-    "slug": "bonava-b",
-    "ticker": "BONAV-B.ST",
+    "slug": "biogaia-b",
+    "ticker": "BIOG-B.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "bonesupport-holding",
-    "ticker": "2B4.F",
-    "status": "ok",
-    "bars": 1282
+    "bars": 1265
   },
   {
     "slug": "boozt",
     "ticker": "BOOZT.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "bonava-b",
+    "ticker": "BONAV-B.ST",
+    "status": "ok",
+    "bars": 1265
+  },
+  {
+    "slug": "bonesupport-holding",
+    "ticker": "BONEX.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "bravida-holding",
     "ticker": "BRAV.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bts-group-b",
     "ticker": "BTS-B.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "brim",
-    "ticker": "BRIM.IC",
-    "status": "ok",
-    "bars": 1251
-  },
-  {
-    "slug": "brdr-a-o-johansen-b",
-    "ticker": "AOJ-B.CO",
-    "status": "ok",
-    "bars": 1259
+    "bars": 1265
   },
   {
     "slug": "bufab",
     "ticker": "BUFAB.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "brim",
+    "ticker": "BRIM.IC",
+    "status": "ok",
+    "bars": 1252
+  },
+  {
+    "slug": "brdr-a-o-johansen-b",
+    "ticker": "AOJ-B.CO",
+    "status": "ok",
+    "bars": 1260
   },
   {
     "slug": "bulten",
     "ticker": "BULTEN.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "byggmax-group",
     "ticker": "BMAX.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "bure-equity",
     "ticker": "BURE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "c-rad-b",
     "ticker": "CRAD-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "camurus",
     "ticker": "CAMX.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "cantargia",
     "ticker": "CANTA.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "capman-oyj",
-    "ticker": "CAPMAN.HE",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "carasent",
     "ticker": "CARA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "capman-oyj",
+    "ticker": "CAPMAN.HE",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "catella-b",
     "ticker": "CAT-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "catena",
     "ticker": "CATE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "cellavision",
+    "ticker": "CVLLY",
+    "status": "ok",
+    "bars": 134
   },
   {
     "slug": "cbrain",
     "ticker": "CBRAIN.CO",
     "status": "ok",
-    "bars": 1259
-  },
-  {
-    "slug": "cellavision",
-    "ticker": "C26.F",
-    "status": "ok",
-    "bars": 1282
+    "bars": 1260
   },
   {
     "slug": "chemometec",
     "ticker": "CHEMM.CO",
     "status": "ok",
-    "bars": 1259
-  },
-  {
-    "slug": "cinclus-pharma-holding",
-    "ticker": "CINPHA.ST",
-    "status": "ok",
-    "bars": 545
+    "bars": 1260
   },
   {
     "slug": "cibus-real-estate",
     "ticker": "CIBUS.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "cinclus-pharma-holding",
+    "ticker": "CINPHA.ST",
+    "status": "ok",
+    "bars": 546
   },
   {
     "slug": "cint-group",
@@ -459,277 +459,277 @@
     "slug": "citycon-oyj",
     "ticker": "CTY1S.HE",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "clas-ohlson-b",
-    "ticker": "CLAS-B.ST",
-    "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "cloetta-b",
-    "ticker": "CLA-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "coor-service-management-hold",
     "ticker": "COOR.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "clas-ohlson-b",
+    "ticker": "CLAS-B.ST",
+    "status": "ok",
+    "bars": 1265
+  },
+  {
+    "slug": "cloetta-b",
+    "ticker": "CLA-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "corem-property-group-b",
     "ticker": "CORE-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "ctek",
     "ticker": "CTEK.ST",
     "status": "ok",
-    "bars": 1235
+    "bars": 1236
   },
   {
     "slug": "ctt-systems",
     "ticker": "CTT.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "d-s-norden",
     "ticker": "DNORD.CO",
     "status": "ok",
-    "bars": 1259
-  },
-  {
-    "slug": "dedicare-b",
-    "ticker": "DEDI.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1260
   },
   {
     "slug": "demant",
     "ticker": "DEMANT.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "dios-fastigheter",
     "ticker": "DIOS.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "dedicare-b",
+    "ticker": "DEDI.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "dfds",
     "ticker": "DFDS.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "dometic-group",
     "ticker": "DOM.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "duni",
-    "ticker": "DUNI.ST",
-    "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "dustin-group",
-    "ticker": "DUST.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "dynavox-group",
     "ticker": "DYVOX.ST",
     "status": "ok",
-    "bars": 1181
+    "bars": 1182
+  },
+  {
+    "slug": "duni",
+    "ticker": "DUNI.ST",
+    "status": "ok",
+    "bars": 1265
+  },
+  {
+    "slug": "dustin-group",
+    "ticker": "DUST.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "easor-oyj",
     "ticker": "EASOR.HE",
     "status": "ok",
-    "bars": 122
+    "bars": 123
   },
   {
     "slug": "eik-fasteignafelag",
     "ticker": "EIK.IC",
     "status": "ok",
-    "bars": 1251
-  },
-  {
-    "slug": "eastnine",
-    "ticker": "EAST.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1252
   },
   {
     "slug": "egetis-therapeutics",
     "ticker": "EGTX.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "eastnine",
+    "ticker": "EAST.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "eimskipafelag-islands",
     "ticker": "EIM.IC",
     "status": "ok",
-    "bars": 1251
+    "bars": 1252
   },
   {
     "slug": "elanders-b",
     "ticker": "ELAN-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "electrolux-b",
     "ticker": "ELUX-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "electrolux-professional-b",
     "ticker": "EPRO-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "elekta-b",
     "ticker": "EKTA-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "embla-medical",
     "ticker": "EMBLA.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "embracer-group-b",
     "ticker": "EMBRAC-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "enad-global-7",
     "ticker": "EG7.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "endomines-finland-oyj",
     "ticker": "PAMPALO.HE",
     "status": "ok",
-    "bars": 922
+    "bars": 923
   },
   {
     "slug": "enea",
     "ticker": "ENEA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "enento-group-oyj",
     "ticker": "ENENTO.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "enity-holding",
     "ticker": "ENITY.ST",
     "status": "ok",
-    "bars": 301
+    "bars": 302
   },
   {
     "slug": "engcon-b",
     "ticker": "ENGCON-B.ST",
     "status": "ok",
-    "bars": 1052
+    "bars": 1053
   },
   {
     "slug": "eolus-b",
     "ticker": "EOLU-B.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "eql-pharma",
-    "ticker": "EQL.ST",
-    "status": "ok",
-    "bars": 536
+    "bars": 1265
   },
   {
     "slug": "ependion",
     "ticker": "EPEN.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "eql-pharma",
+    "ticker": "EQL.ST",
+    "status": "ok",
+    "bars": 537
   },
   {
     "slug": "ework-group",
     "ticker": "EWRK.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "f-secure-oyj",
     "ticker": "FSECURE.HE",
     "status": "ok",
-    "bars": 1043
+    "bars": 1044
   },
   {
     "slug": "fabege",
     "ticker": "FABG.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "fagerhult-group",
     "ticker": "FAG.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "fasadgruppen-group",
     "ticker": "FG.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "fastighetsbolaget-emilshus-b",
-    "ticker": "EMIL-B.ST",
-    "status": "ok",
-    "bars": 1056
+    "bars": 1265
   },
   {
     "slug": "fastpartner-a",
     "ticker": "FPAR-A.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
-    "slug": "ferronordic",
-    "ticker": "FNM.ST",
+    "slug": "fastighetsbolaget-emilshus-b",
+    "ticker": "EMIL-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1057
   },
   {
     "slug": "fenix-outdoor-international-b",
     "ticker": "FOI-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "ferronordic",
+    "ticker": "FNM.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "festi",
     "ticker": "FESTI.IC",
     "status": "ok",
-    "bars": 1251
+    "bars": 1252
   },
   {
     "slug": "fingerprint-cards-b",
@@ -741,19 +741,25 @@
     "slug": "finnair-oyj",
     "ticker": "FIA1S.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "fiskars-oyj-abp",
     "ticker": "FSKRS.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "flerie",
     "ticker": "FLERIE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "flsmidth-co",
+    "ticker": "FLS.CO",
+    "status": "ok",
+    "bars": 1260
   },
   {
     "slug": "f-roya-banki",
@@ -761,274 +767,268 @@
     "status": "no_history"
   },
   {
-    "slug": "flsmidth-co",
-    "ticker": "FLS.CO",
-    "status": "ok",
-    "bars": 1259
-  },
-  {
     "slug": "g5-entertainment",
     "ticker": "G5EN.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "gentoo-media",
-    "ticker": "G2M.ST",
-    "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "gofore-oyj",
-    "ticker": "GOFORE.HE",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "gn-store-nord",
     "ticker": "GN.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
+  },
+  {
+    "slug": "gofore-oyj",
+    "ticker": "GOFORE.HE",
+    "status": "ok",
+    "bars": 1265
+  },
+  {
+    "slug": "gentoo-media",
+    "ticker": "G2M.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "green-landscaping-group",
     "ticker": "GREEN.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "grk-infra-oyj",
     "ticker": "GRK.HE",
     "status": "ok",
-    "bars": 349
-  },
-  {
-    "slug": "granges",
-    "ticker": "GRNG.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 350
   },
   {
     "slug": "gruvaktiebolaget-viscaria",
     "ticker": "VISC.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "granges",
+    "ticker": "GRNG.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "gubra",
     "ticker": "GUBRA.CO",
     "status": "ok",
-    "bars": 843
+    "bars": 844
   },
   {
     "slug": "h-h-international",
     "ticker": "HH.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "hacksaw",
     "ticker": "HACK.ST",
     "status": "ok",
-    "bars": 294
+    "bars": 295
   },
   {
     "slug": "h-lundbeck-b",
     "ticker": "HLUN-B.CO",
     "status": "ok",
-    "bars": 1054
+    "bars": 1055
   },
   {
     "slug": "hagar",
     "ticker": "HAGA.IC",
     "status": "ok",
-    "bars": 1251
+    "bars": 1252
   },
   {
     "slug": "hampi-jan",
     "ticker": "HAMP.IC",
     "status": "ok",
-    "bars": 1251
+    "bars": 1252
   },
   {
     "slug": "hansa-biopharma",
     "ticker": "HNSA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "hanza",
     "ticker": "HANZA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "harboes-bryggeri-b",
     "ticker": "HARB-B.CO",
     "status": "ok",
-    "bars": 1259
-  },
-  {
-    "slug": "heba-b",
-    "ticker": "HEBA-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1260
   },
   {
     "slug": "harvia-oyj",
     "ticker": "HARVIA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "heba-b",
+    "ticker": "HEBA-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "heimar",
     "ticker": "HEIMAR.IC",
     "status": "ok",
-    "bars": 1252
+    "bars": 1253
   },
   {
     "slug": "hemnet-group",
     "ticker": "HEM.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "hexpol-b",
     "ticker": "HPOL-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "hexatronic-group",
     "ticker": "HTRO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "hiab-oyj",
     "ticker": "HIAB.HE",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "hms-networks",
-    "ticker": "HMS.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "hoist-finance",
     "ticker": "HOFI.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
-    "slug": "huhtamaki-oyj",
-    "ticker": "HUH1V.HE",
+    "slug": "hms-networks",
+    "ticker": "HMS.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "hufvudstaden-a",
     "ticker": "HUFV-A.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "huhtamaki-oyj",
+    "ticker": "HUH1V.HE",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "humana",
     "ticker": "HUM.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "humble-group",
     "ticker": "HUMBLE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "huscompagniet",
     "ticker": "HUSCO.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "husqvarna-b",
     "ticker": "HUSQ-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "icelandair-group",
     "ticker": "ICEAIR.IC",
     "status": "ok",
-    "bars": 1251
-  },
-  {
-    "slug": "incap-oyj",
-    "ticker": "ICP1V.HE",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1252
   },
   {
     "slug": "immunovia",
     "ticker": "IMMNOV.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
-    "slug": "instalco",
-    "ticker": "INSTAL.ST",
+    "slug": "incap-oyj",
+    "ticker": "ICP1V.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "infant-bacterial-therapeuticsb",
     "ticker": "IBT-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "instalco",
+    "ticker": "4IIA.F",
+    "status": "ok",
+    "bars": 1284
   },
   {
     "slug": "international-petroleum-corp",
     "ticker": "IPCO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "intea-fastigheter-b",
     "ticker": "INTEA-B.ST",
     "status": "ok",
-    "bars": 421
+    "bars": 422
   },
   {
     "slug": "intrum",
     "ticker": "INTRUM.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "invisio",
     "ticker": "IVSO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "inwido",
     "ticker": "INWI.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "isofol-medical",
     "ticker": "ISOFOL.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "iss",
     "ticker": "ISS.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "itab-shop-concept",
@@ -1040,349 +1040,349 @@
     "slug": "jbt-marel-corp",
     "ticker": "JBTM.IC",
     "status": "ok",
-    "bars": 392
-  },
-  {
-    "slug": "jm",
-    "ticker": "JM.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 393
   },
   {
     "slug": "jeudan",
     "ticker": "JDAN.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
-    "slug": "john-mattson-fastighetsforet",
-    "ticker": "AR5.SG",
+    "slug": "jm",
+    "ticker": "JM.ST",
     "status": "ok",
-    "bars": 682
+    "bars": 1265
   },
   {
     "slug": "jyske-bank",
     "ticker": "JYSK.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
-    "slug": "kaldalon",
-    "ticker": "KALD.IC",
+    "slug": "john-mattson-fastighetsforet",
+    "ticker": "AR5.SG",
     "status": "ok",
-    "bars": 1251
+    "bars": 683
   },
   {
     "slug": "k-fast-holding-b",
     "ticker": "KFAST-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "kaldalon",
+    "ticker": "KALD.IC",
+    "status": "ok",
+    "bars": 1252
   },
   {
     "slug": "kalmar-oyj-b",
     "ticker": "KALMAR.HE",
     "status": "ok",
-    "bars": 539
+    "bars": 540
   },
   {
     "slug": "kamux-oyj",
     "ticker": "KAMUX.HE",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "karnell-group-b",
-    "ticker": "KARNEL-B.ST",
-    "status": "ok",
-    "bars": 604
+    "bars": 1265
   },
   {
     "slug": "karnov-group",
     "ticker": "KAR.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "karnell-group-b",
+    "ticker": "KARNEL-B.ST",
+    "status": "ok",
+    "bars": 605
   },
   {
     "slug": "kemira-oyj",
     "ticker": "KEMIRA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "kempower-oyj",
     "ticker": "KEMPOWR.HE",
     "status": "ok",
-    "bars": 1179
+    "bars": 1180
   },
   {
     "slug": "kinnevik-b",
     "ticker": "KINV-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "klarabo-sverige-b",
     "ticker": "KLARA-B.ST",
     "status": "ok",
-    "bars": 1186
-  },
-  {
-    "slug": "knowit",
-    "ticker": "KNOW.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1187
   },
   {
     "slug": "kvika-banki",
     "ticker": "KVIKA.IC",
     "status": "ok",
-    "bars": 1251
+    "bars": 1252
+  },
+  {
+    "slug": "knowit",
+    "ticker": "KNOW.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "lassila-tikanoja",
     "ticker": "LASTIK.HE",
     "status": "ok",
-    "bars": 162
+    "bars": 163
   },
   {
     "slug": "latour-b",
     "ticker": "LATO-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "lagercrantz-group-b",
     "ticker": "LAGR-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "lime-technologies",
     "ticker": "LIME.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "lindab-international",
     "ticker": "LIAB.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "loomis",
-    "ticker": "LOOMIS.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "lindex-group-oyj",
     "ticker": "LINDEX.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "loomis",
+    "ticker": "LOOMIS.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "logistea-b",
     "ticker": "LOGI-B.ST",
     "status": "ok",
-    "bars": 1194
+    "bars": 1195
   },
   {
     "slug": "lumo-kodit-oyj",
     "ticker": "LUMO.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "lundbergforetagen-b",
     "ticker": "LUND-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "lundin-gold",
     "ticker": "LUG.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "lundin-mining-corporation",
     "ticker": "LUMI.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "maha-capital",
     "ticker": "7M7.DU",
     "status": "ok",
-    "bars": 84
+    "bars": 86
   },
   {
     "slug": "luotea-plc",
     "ticker": "LUOTEA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "mandatum",
     "ticker": "MANTA.HE",
     "status": "ok",
-    "bars": 725
+    "bars": 726
   },
   {
     "slug": "marimekko-oyj",
     "ticker": "MEKKO.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "matas",
     "ticker": "MATAS.CO",
     "status": "ok",
-    "bars": 1259
-  },
-  {
-    "slug": "medcap",
-    "ticker": "MCAP.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1260
   },
   {
     "slug": "medicover-b",
     "ticker": "MCOV-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "medcap",
+    "ticker": "MCAP.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "meko",
     "ticker": "MEKO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "meren-energy",
     "ticker": "MER.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "metsa-board-oyj-b",
-    "ticker": "METSB.HE",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "mildef-group",
     "ticker": "MILDEF.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "metsa-board-oyj-b",
+    "ticker": "METSB.HE",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "mips",
     "ticker": "MIPS.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "moberg-pharma",
     "ticker": "MOB.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "momentum-group-b",
     "ticker": "MMGR-B.ST",
     "status": "ok",
-    "bars": 1104
+    "bars": 1105
   },
   {
     "slug": "modern-times-group-b",
     "ticker": "MTG-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "mt-h-jgaard-holding",
     "ticker": "MTHH.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "munters-group",
     "ticker": "MTRS.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "musti-group-oyj",
     "ticker": "MUSTI.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "mycronic",
     "ticker": "MYCR.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "ncab-group",
     "ticker": "NCAB.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "ncc-b",
     "ticker": "NCC-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "nederman-holding",
     "ticker": "NMAN.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "nelly-group",
     "ticker": "NELLY.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "net-insight-b",
-    "ticker": "NETI-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "neobo-fastigheter",
     "ticker": "NEOBO.ST",
     "status": "ok",
-    "bars": 884
+    "bars": 885
+  },
+  {
+    "slug": "net-insight-b",
+    "ticker": "NETI-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "netcompany-group",
     "ticker": "NETC.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "netel-holding",
     "ticker": "NETEL.ST",
     "status": "ok",
-    "bars": 1220
-  },
-  {
-    "slug": "nightingale-health-oyj-b",
-    "ticker": "HEALTH.HE",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1221
   },
   {
     "slug": "new-wave-b",
     "ticker": "NEWA-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "nightingale-health-oyj-b",
+    "ticker": "HEALTH.HE",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "nilorngruppen-b",
@@ -1391,658 +1391,664 @@
     "bars": 18
   },
   {
+    "slug": "nivika-fastigheter-b",
+    "ticker": "NIVI-B.ST",
+    "status": "ok",
+    "bars": 1186
+  },
+  {
     "slug": "nnit",
     "ticker": "NNIT.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "noba-bank-group",
     "ticker": "NOBA.ST",
     "status": "ok",
-    "bars": 227
-  },
-  {
-    "slug": "nivika-fastigheter-b",
-    "ticker": "NIVI-B.ST",
-    "status": "ok",
-    "bars": 1185
+    "bars": 228
   },
   {
     "slug": "nobia",
     "ticker": "NOBI.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "nolato-b",
     "ticker": "NOLA-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "nordnet",
+    "ticker": "SAVE.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "nokian-renkaat-oyj",
     "ticker": "TYRES.HE",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "nordnet",
-    "ticker": "SAVES.XD",
-    "status": "ok",
-    "bars": 1
+    "bars": 1265
   },
   {
     "slug": "norion-bank",
     "ticker": "NORION.ST",
     "status": "ok",
-    "bars": 1012
+    "bars": 1013
   },
   {
     "slug": "nova-klubburinn",
     "ticker": "NOVA.IC",
     "status": "ok",
-    "bars": 1038
+    "bars": 1039
   },
   {
     "slug": "note",
     "ticker": "NOTE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "north-media",
     "ticker": "NORTHM.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "np3-fastigheter",
     "ticker": "NP3.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "ntg-nordic-transport-group",
-    "ticker": "NTG.CO",
-    "status": "ok",
-    "bars": 1259
+    "bars": 1265
   },
   {
     "slug": "oculis-holding",
     "ticker": "OCS.IC",
     "status": "ok",
-    "bars": 562
+    "bars": 563
+  },
+  {
+    "slug": "ntg-nordic-transport-group",
+    "ticker": "NTG.CO",
+    "status": "ok",
+    "bars": 1260
   },
   {
     "slug": "oem-international-b",
     "ticker": "OEM-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "olvi-oyj-a",
     "ticker": "OLVAS.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "oma-saastopankki-oyj",
     "ticker": "OMASP.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "oncopeptides",
     "ticker": "ONCO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "optomed-oyj",
     "ticker": "OPTOMED.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "orron-energy",
     "ticker": "ORRON.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "oriola-oyj",
     "ticker": "ORIOLA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "outokumpu-oyj",
     "ticker": "OUT1V.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "ovzon",
     "ticker": "OVZON.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "peab-b",
     "ticker": "PEAB-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "pandox-b",
     "ticker": "PNDX-B.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "per-aarsleff-holding-b",
-    "ticker": "PAAL-B.CO",
-    "status": "ok",
-    "bars": 1259
+    "bars": 1265
   },
   {
     "slug": "pierce-group",
     "ticker": "PIERCE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "per-aarsleff-holding-b",
+    "ticker": "PAAL-B.CO",
+    "status": "ok",
+    "bars": 1260
   },
   {
     "slug": "pihlajalinna-oyj",
     "ticker": "PIHLIS.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "platzer-fastigheter-holding-b",
     "ticker": "PLAZ-B.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "posti-group",
-    "ticker": "POSTI.HE",
-    "status": "ok",
-    "bars": 217
+    "bars": 1265
   },
   {
     "slug": "ponsse-oyj-1",
     "ticker": "PON1V.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "posti-group",
+    "ticker": "POSTI.HE",
+    "status": "ok",
+    "bars": 218
   },
   {
     "slug": "powercell-sweden",
     "ticker": "PCELL.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "pricer-b",
-    "ticker": "PRIC-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "precise-biometrics",
     "ticker": "PREC.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "prevas-b",
     "ticker": "PREV-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "pricer-b",
+    "ticker": "PRIC-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "prisma-properties",
     "ticker": "PRISMA.ST",
     "status": "ok",
-    "bars": 547
+    "bars": 548
   },
   {
     "slug": "proact-it-group",
     "ticker": "PACT.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "q-linea",
     "ticker": "QLINEA.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "puuilo-oyj",
-    "ticker": "PUUILO.HE",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "qt-group-oyj",
     "ticker": "QTCOM.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
-    "slug": "ratos-b",
-    "ticker": "RATO-B.ST",
+    "slug": "puuilo-oyj",
+    "ticker": "PUUILO.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "raisio-oyj-vaihto-osake",
     "ticker": "RAIVV.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "ratos-b",
+    "ticker": "RATO-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "reitir-fasteignafelag",
     "ticker": "REITIR.IC",
     "status": "ok",
-    "bars": 1251
+    "bars": 1252
   },
   {
     "slug": "raysearch-laboratories-b",
     "ticker": "RAY-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "rejlers-b",
     "ticker": "REJL-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "relais-group-oyj",
     "ticker": "RELAIS.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "remedy-entertainment-oyj",
     "ticker": "REMEDY.HE",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "revenio-group-oyj",
-    "ticker": "REG1V.HE",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "royal-unibrew",
     "ticker": "RBREW.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "rusta",
     "ticker": "RUSTA.ST",
     "status": "ok",
-    "bars": 712
+    "bars": 713
   },
   {
-    "slug": "roko-b",
-    "ticker": "ROKO-B.ST",
+    "slug": "revenio-group-oyj",
+    "ticker": "REG1V.HE",
     "status": "ok",
-    "bars": 364
+    "bars": 1265
   },
   {
     "slug": "rvrc-holding",
     "ticker": "RVRC.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "roko-b",
+    "ticker": "ROKO-B.ST",
+    "status": "ok",
+    "bars": 365
   },
   {
     "slug": "samhallsbyggnadsbo-i-norden-b",
     "ticker": "SBB-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "saniona",
     "ticker": "SANION.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "scandi-standard",
     "ticker": "SCST.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "sanoma-oyj",
     "ticker": "SANOMA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "scandic-hotels-group",
     "ticker": "SHOT.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "scandinavian-tobacco-group",
     "ticker": "STG.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "scanfil-oyj",
     "ticker": "SCANFL.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "schouw-co",
     "ticker": "SCHO.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "sdiptech-b",
     "ticker": "SDIP-B.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "sectra-b",
-    "ticker": "SECT-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "sedana-medical",
     "ticker": "SEDANA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "sectra-b",
+    "ticker": "SECT-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "senzime",
     "ticker": "SEZI.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "sinch",
     "ticker": "SINCH.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "sjova-almennar-tryggingar",
     "ticker": "SJOVA.IC",
     "status": "ok",
-    "bars": 1252
+    "bars": 1253
   },
   {
     "slug": "sivers-semiconductors",
     "ticker": "SIVE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "sjf-bank",
     "ticker": "SJF.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "skagi",
     "ticker": "SKAGI.IC",
     "status": "ok",
-    "bars": 552
+    "bars": 553
   },
   {
     "slug": "skel-fjarfestingafelag",
     "ticker": "SKEL.IC",
     "status": "ok",
-    "bars": 1252
+    "bars": 1253
   },
   {
     "slug": "skjern-bank",
     "ticker": "SKJE.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "skistar-b",
     "ticker": "SKIS-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "sleep-cycle",
     "ticker": "SLEEP.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "solar-b",
     "ticker": "SOLAR-B.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "solid-forsakringsaktiebolag",
     "ticker": "SFAB.ST",
     "status": "ok",
-    "bars": 1187
+    "bars": 1188
   },
   {
     "slug": "sp-group",
     "ticker": "SPG.CO",
     "status": "ok",
-    "bars": 1259
-  },
-  {
-    "slug": "stendorren-fastigheter-b",
-    "ticker": "STEF-B.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1260
   },
   {
     "slug": "ssh-communications-security",
     "ticker": "SSH1V.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "stendorren-fastigheter-b",
+    "ticker": "STEF-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "stenhus-fastigheter-i-norden",
     "ticker": "SFAST.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "stillfront-group",
     "ticker": "SF.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "studsvik",
-    "ticker": "SVIK.ST",
-    "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "sveafastigheter",
-    "ticker": "SVEAF.ST",
-    "status": "ok",
-    "bars": 460
+    "bars": 1265
   },
   {
     "slug": "storskogen-group-b",
     "ticker": "STOR-B.ST",
     "status": "ok",
-    "bars": 1227
+    "bars": 1228
+  },
+  {
+    "slug": "studsvik",
+    "ticker": "SVIK.ST",
+    "status": "ok",
+    "bars": 1265
+  },
+  {
+    "slug": "sveafastigheter",
+    "ticker": "SVEAF.ST",
+    "status": "ok",
+    "bars": 461
   },
   {
     "slug": "svedbergs-group-b",
     "ticker": "SVED-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "sweco-b",
     "ticker": "SWEC-B.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "synact-pharma",
-    "ticker": "SYNACT.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "swedish-logistic-property-b",
     "ticker": "SLP-B.ST",
     "status": "ok",
-    "bars": 1110
+    "bars": 1111
+  },
+  {
+    "slug": "synact-pharma",
+    "ticker": "SYNACT.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "synsam",
     "ticker": "SYNSAM.ST",
     "status": "ok",
-    "bars": 1210
+    "bars": 1211
   },
   {
     "slug": "systemair",
     "ticker": "SYSR.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "sildarvinnslan",
     "ticker": "SVN.IC",
     "status": "ok",
-    "bars": 1252
+    "bars": 1253
   },
   {
     "slug": "siminn",
     "ticker": "SIMINN.IC",
     "status": "ok",
-    "bars": 1252
+    "bars": 1253
   },
   {
     "slug": "syn",
     "ticker": "SYN.IC",
     "status": "ok",
-    "bars": 1254
+    "bars": 1255
   },
   {
     "slug": "taaleri-oyj",
     "ticker": "TAALA.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "talenom-oyj",
     "ticker": "TNOM.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "terveystalo-oyj",
     "ticker": "TTALO.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "thule-group",
     "ticker": "THULE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "tieto-oyj",
     "ticker": "TIETO.HE",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "tobii",
-    "ticker": "TOBII.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "tokmanni-group-oyj",
     "ticker": "TOKMAN.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "tobii",
+    "ticker": "24T.F",
+    "status": "ok",
+    "bars": 1284
   },
   {
     "slug": "torm-a",
     "ticker": "TRMD-A.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "transtema-group",
     "ticker": "TRANS.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "traton",
     "ticker": "8TRA.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "trianon-b",
     "ticker": "TRIAN-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "trifork-group",
     "ticker": "TRIFOR.CO",
     "status": "ok",
-    "bars": 1259
+    "bars": 1260
   },
   {
     "slug": "troax-group",
     "ticker": "TROAX.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "truecaller-b",
     "ticker": "TRUE-B.ST",
     "status": "ok",
-    "bars": 1225
+    "bars": 1226
   },
   {
     "slug": "uie-plc",
     "ticker": "UIE.CO",
     "status": "ok",
-    "bars": 1259
-  },
-  {
-    "slug": "vaisala-oyj-a",
-    "ticker": "VAIAS.HE",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1260
   },
   {
     "slug": "vbg-group-b",
     "ticker": "VBG-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
+  },
+  {
+    "slug": "vaisala-oyj-a",
+    "ticker": "VAIAS.HE",
+    "status": "ok",
+    "bars": 1265
+  },
+  {
+    "slug": "verkkokauppa-com-oyj",
+    "ticker": "VERK.HE",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "vestum",
@@ -2051,100 +2057,94 @@
     "bars": 1
   },
   {
-    "slug": "verkkokauppa-com-oyj",
-    "ticker": "VERK.HE",
-    "status": "ok",
-    "bars": 1264
-  },
-  {
     "slug": "vicore-pharma-holding",
     "ticker": "VICO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "viaplay-group-b",
     "ticker": "VPLAY-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "vimian-group",
     "ticker": "VIMIAN.ST",
     "status": "ok",
-    "bars": 1264
-  },
-  {
-    "slug": "vitrolife",
-    "ticker": "VITR.ST",
-    "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "vitec-software-group-b",
     "ticker": "VIT-B.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
-    "slug": "vnv-global",
-    "ticker": "VNV.ST",
+    "slug": "vitrolife",
+    "ticker": "VITR.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "volati",
     "ticker": "VOLO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
-    "slug": "wallenstam-b",
-    "ticker": "WALL-B.ST",
+    "slug": "vnv-global",
+    "ticker": "VNV.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "volvo-car-b",
     "ticker": "VOLCAR-B.ST",
     "status": "ok",
-    "bars": 1210
+    "bars": 1211
+  },
+  {
+    "slug": "wallenstam-b",
+    "ticker": "WALL-B.ST",
+    "status": "ok",
+    "bars": 1265
   },
   {
     "slug": "wihlborgs-fastigheter",
     "ticker": "WIHL.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "xbrane-biopharma",
     "ticker": "XBRANE.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "xvivo-perfusion",
     "ticker": "XVIVO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "xspray-pharma",
     "ticker": "XSPRAY.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "yubico",
     "ticker": "YUBICO.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "yit-oyj",
     "ticker": "YIT.HE",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   },
   {
     "slug": "isfelag",
@@ -2155,12 +2155,12 @@
     "slug": "islandsbanki",
     "ticker": "ISB.IC",
     "status": "ok",
-    "bars": 1251
+    "bars": 1252
   },
   {
     "slug": "oresund",
     "ticker": "ORES.ST",
     "status": "ok",
-    "bars": 1264
+    "bars": 1265
   }
 ]
